@@ -94,7 +94,8 @@
 #define  DATE_FORMATE_YYYY_MM_DD_HH_MM_SS               @"yyyy-MM-dd HH:mm:ss"
 
 
-#define NO_WARN_BEGIN       #pragma clang diagnostic push\
+#define NO_WARN_BEGIN       \
+#pragma clang diagnostic push\
 #pragma clang diagnostic ignored"-Wdeprecated-declarations"\
 
 

@@ -299,7 +299,9 @@
 //  Helper function to handle deferred cleanup of a buffer.
 //
 void cleanupBuffer(void *userData, void *buf_data)
-{ free(buf_data); }
+{
+    free(buf_data);
+}
 
 @end
 

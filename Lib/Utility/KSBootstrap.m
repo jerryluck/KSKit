@@ -31,6 +31,8 @@ static KSDataCenter * _dataCenter;
     [_data removeObjectForKey:aKey];
 }
 
+
+
 - (id) valueForKey:(NSString *)key{
     return [_data valueForKey:key];
 }
