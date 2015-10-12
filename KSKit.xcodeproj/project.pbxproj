@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C43FCE001BCB681F00DAB539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCDFF1BCB681F00DAB539 /* main.m */; };
+		C43FCE031BCB681F00DAB539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE021BCB681F00DAB539 /* AppDelegate.m */; };
+		C43FCE061BCB681F00DAB539 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE051BCB681F00DAB539 /* ViewController.m */; };
+		C43FCE091BCB681F00DAB539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43FCE071BCB681F00DAB539 /* Main.storyboard */; };
+		C43FCE0B1BCB681F00DAB539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43FCE0A1BCB681F00DAB539 /* Assets.xcassets */; };
+		C43FCE0E1BCB681F00DAB539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43FCE0C1BCB681F00DAB539 /* LaunchScreen.storyboard */; };
+		C43FCE191BCB681F00DAB539 /* KSKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE181BCB681F00DAB539 /* KSKitTests.m */; };
+		C43FCE241BCB681F00DAB539 /* KSKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE231BCB681F00DAB539 /* KSKitUITests.m */; };
+		C43FCE341BCB685300DAB539 /* KSBootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE331BCB685300DAB539 /* KSBootstrap.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE371BCB685F00DAB539 /* KSApp.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE361BCB685F00DAB539 /* KSApp.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE3D1BCB6B4800DAB539 /* KSRoundAndBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE3A1BCB6B4800DAB539 /* KSRoundAndBorderView.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE3E1BCB6B4800DAB539 /* KSRoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE3C1BCB6B4800DAB539 /* KSRoundedView.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE411BCB6B6A00DAB539 /* UIUtil+KS.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE401BCB6B6A00DAB539 /* UIUtil+KS.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE441BCB6B8600DAB539 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE431BCB6B8600DAB539 /* Reachability.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE471BCB6BDB00DAB539 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE461BCB6BDB00DAB539 /* UIViewAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE4A1BCB6C2A00DAB539 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE491BCB6C2A00DAB539 /* UIImageEffects.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE4D1BCB6C3600DAB539 /* UIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE4C1BCB6C3600DAB539 /* UIImageAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE501BCB6C6600DAB539 /* UIDeviceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE4F1BCB6C6600DAB539 /* UIDeviceAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE571BCB6C7500DAB539 /* UIButttonAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE521BCB6C7500DAB539 /* UIButttonAddition.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE581BCB6C7500DAB539 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE541BCB6C7500DAB539 /* UIColor+expanded.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE591BCB6C7500DAB539 /* UIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE561BCB6C7500DAB539 /* UIColorAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE5E1BCB6C8100DAB539 /* NSObjectAdditons.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE5B1BCB6C8100DAB539 /* NSObjectAdditons.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE5F1BCB6C8100DAB539 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE5D1BCB6C8100DAB539 /* NSStringAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE661BCB731300DAB539 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE611BCB731300DAB539 /* NSData+Base64.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE671BCB731300DAB539 /* NSDate+Escort.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE631BCB731300DAB539 /* NSDate+Escort.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE681BCB731300DAB539 /* NSDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE651BCB731300DAB539 /* NSDateAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		C43FCE6F1BCB741200DAB539 /* UILabelAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE6E1BCB741200DAB539 /* UILabelAdditions.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C43FCE151BCB681F00DAB539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C43FCDF31BCB681F00DAB539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C43FCDFA1BCB681F00DAB539;
+			remoteInfo = KSKit;
+		};
+		C43FCE201BCB681F00DAB539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C43FCDF31BCB681F00DAB539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C43FCDFA1BCB681F00DAB539;
+			remoteInfo = KSKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C43FCDFB1BCB681F00DAB539 /* KSKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43FCDFF1BCB681F00DAB539 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C43FCE011BCB681F00DAB539 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C43FCE021BCB681F00DAB539 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C43FCE041BCB681F00DAB539 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C43FCE051BCB681F00DAB539 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C43FCE081BCB681F00DAB539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C43FCE0A1BCB681F00DAB539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C43FCE0D1BCB681F00DAB539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C43FCE0F1BCB681F00DAB539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43FCE141BCB681F00DAB539 /* KSKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43FCE181BCB681F00DAB539 /* KSKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSKitTests.m; sourceTree = "<group>"; };
+		C43FCE1A1BCB681F00DAB539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43FCE1F1BCB681F00DAB539 /* KSKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43FCE231BCB681F00DAB539 /* KSKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSKitUITests.m; sourceTree = "<group>"; };
+		C43FCE251BCB681F00DAB539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43FCE321BCB685300DAB539 /* KSBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSBootstrap.h; sourceTree = "<group>"; };
+		C43FCE331BCB685300DAB539 /* KSBootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSBootstrap.m; sourceTree = "<group>"; };
+		C43FCE351BCB685F00DAB539 /* KSApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSApp.h; sourceTree = "<group>"; };
+		C43FCE361BCB685F00DAB539 /* KSApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSApp.m; sourceTree = "<group>"; };
+		C43FCE381BCB68B200DAB539 /* KSApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KSApp-Prefix.pch"; sourceTree = "<group>"; };
+		C43FCE391BCB6B4800DAB539 /* KSRoundAndBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSRoundAndBorderView.h; sourceTree = "<group>"; };
+		C43FCE3A1BCB6B4800DAB539 /* KSRoundAndBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSRoundAndBorderView.m; sourceTree = "<group>"; };
+		C43FCE3B1BCB6B4800DAB539 /* KSRoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSRoundedView.h; sourceTree = "<group>"; };
+		C43FCE3C1BCB6B4800DAB539 /* KSRoundedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSRoundedView.m; sourceTree = "<group>"; };
+		C43FCE3F1BCB6B6A00DAB539 /* UIUtil+KS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIUtil+KS.h"; sourceTree = "<group>"; };
+		C43FCE401BCB6B6A00DAB539 /* UIUtil+KS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIUtil+KS.m"; sourceTree = "<group>"; };
+		C43FCE421BCB6B8600DAB539 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C43FCE431BCB6B8600DAB539 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C43FCE451BCB6BDB00DAB539 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		C43FCE461BCB6BDB00DAB539 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+		C43FCE481BCB6C2A00DAB539 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		C43FCE491BCB6C2A00DAB539 /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		C43FCE4B1BCB6C3600DAB539 /* UIImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageAdditions.h; sourceTree = "<group>"; };
+		C43FCE4C1BCB6C3600DAB539 /* UIImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageAdditions.m; sourceTree = "<group>"; };
+		C43FCE4E1BCB6C6600DAB539 /* UIDeviceAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDeviceAdditions.h; sourceTree = "<group>"; };
+		C43FCE4F1BCB6C6600DAB539 /* UIDeviceAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDeviceAdditions.m; sourceTree = "<group>"; };
+		C43FCE511BCB6C7500DAB539 /* UIButttonAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButttonAddition.h; sourceTree = "<group>"; };
+		C43FCE521BCB6C7500DAB539 /* UIButttonAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButttonAddition.m; sourceTree = "<group>"; };
+		C43FCE531BCB6C7500DAB539 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		C43FCE541BCB6C7500DAB539 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		C43FCE551BCB6C7500DAB539 /* UIColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorAdditions.h; sourceTree = "<group>"; };
+		C43FCE561BCB6C7500DAB539 /* UIColorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorAdditions.m; sourceTree = "<group>"; };
+		C43FCE5A1BCB6C8100DAB539 /* NSObjectAdditons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectAdditons.h; sourceTree = "<group>"; };
+		C43FCE5B1BCB6C8100DAB539 /* NSObjectAdditons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectAdditons.m; sourceTree = "<group>"; };
+		C43FCE5C1BCB6C8100DAB539 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		C43FCE5D1BCB6C8100DAB539 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
+		C43FCE601BCB731300DAB539 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		C43FCE611BCB731300DAB539 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		C43FCE621BCB731300DAB539 /* NSDate+Escort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Escort.h"; sourceTree = "<group>"; };
+		C43FCE631BCB731300DAB539 /* NSDate+Escort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Escort.m"; sourceTree = "<group>"; };
+		C43FCE641BCB731300DAB539 /* NSDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateAdditions.h; sourceTree = "<group>"; };
+		C43FCE651BCB731300DAB539 /* NSDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateAdditions.m; sourceTree = "<group>"; };
+		C43FCE6C1BCB73DB00DAB539 /* KSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSKit.h; sourceTree = "<group>"; };
+		C43FCE6D1BCB741200DAB539 /* UILabelAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelAdditions.h; sourceTree = "<group>"; };
+		C43FCE6E1BCB741200DAB539 /* UILabelAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelAdditions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C43FCDF81BCB681F00DAB539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43FCE111BCB681F00DAB539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43FCE1C1BCB681F00DAB539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C43FCDF21BCB681F00DAB539 = {
+			isa = PBXGroup;
+			children = (
+				C43FCE311BCB684200DAB539 /* Lib */,
+				C43FCDFD1BCB681F00DAB539 /* KSKit */,
+				C43FCE171BCB681F00DAB539 /* KSKitTests */,
+				C43FCE221BCB681F00DAB539 /* KSKitUITests */,
+				C43FCDFC1BCB681F00DAB539 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C43FCDFC1BCB681F00DAB539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C43FCDFB1BCB681F00DAB539 /* KSKit.app */,
+				C43FCE141BCB681F00DAB539 /* KSKitTests.xctest */,
+				C43FCE1F1BCB681F00DAB539 /* KSKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C43FCDFD1BCB681F00DAB539 /* KSKit */ = {
+			isa = PBXGroup;
+			children = (
+				C43FCE011BCB681F00DAB539 /* AppDelegate.h */,
+				C43FCE021BCB681F00DAB539 /* AppDelegate.m */,
+				C43FCE041BCB681F00DAB539 /* ViewController.h */,
+				C43FCE051BCB681F00DAB539 /* ViewController.m */,
+				C43FCE071BCB681F00DAB539 /* Main.storyboard */,
+				C43FCE0A1BCB681F00DAB539 /* Assets.xcassets */,
+				C43FCE0C1BCB681F00DAB539 /* LaunchScreen.storyboard */,
+				C43FCE0F1BCB681F00DAB539 /* Info.plist */,
+				C43FCDFE1BCB681F00DAB539 /* Supporting Files */,
+			);
+			path = KSKit;
+			sourceTree = "<group>";
+		};
+		C43FCDFE1BCB681F00DAB539 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C43FCDFF1BCB681F00DAB539 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C43FCE171BCB681F00DAB539 /* KSKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C43FCE181BCB681F00DAB539 /* KSKitTests.m */,
+				C43FCE1A1BCB681F00DAB539 /* Info.plist */,
+			);
+			path = KSKitTests;
+			sourceTree = "<group>";
+		};
+		C43FCE221BCB681F00DAB539 /* KSKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C43FCE231BCB681F00DAB539 /* KSKitUITests.m */,
+				C43FCE251BCB681F00DAB539 /* Info.plist */,
+			);
+			path = KSKitUITests;
+			sourceTree = "<group>";
+		};
+		C43FCE311BCB684200DAB539 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C43FCE6C1BCB73DB00DAB539 /* KSKit.h */,
+				C43FCE381BCB68B200DAB539 /* KSApp-Prefix.pch */,
+				C43FCE321BCB685300DAB539 /* KSBootstrap.h */,
+				C43FCE331BCB685300DAB539 /* KSBootstrap.m */,
+				C43FCE351BCB685F00DAB539 /* KSApp.h */,
+				C43FCE361BCB685F00DAB539 /* KSApp.m */,
+				C43FCE391BCB6B4800DAB539 /* KSRoundAndBorderView.h */,
+				C43FCE3A1BCB6B4800DAB539 /* KSRoundAndBorderView.m */,
+				C43FCE3B1BCB6B4800DAB539 /* KSRoundedView.h */,
+				C43FCE3C1BCB6B4800DAB539 /* KSRoundedView.m */,
+				C43FCE421BCB6B8600DAB539 /* Reachability.h */,
+				C43FCE431BCB6B8600DAB539 /* Reachability.m */,
+				C43FCE451BCB6BDB00DAB539 /* UIViewAdditions.h */,
+				C43FCE461BCB6BDB00DAB539 /* UIViewAdditions.m */,
+				C43FCE3F1BCB6B6A00DAB539 /* UIUtil+KS.h */,
+				C43FCE401BCB6B6A00DAB539 /* UIUtil+KS.m */,
+				C43FCE481BCB6C2A00DAB539 /* UIImageEffects.h */,
+				C43FCE491BCB6C2A00DAB539 /* UIImageEffects.m */,
+				C43FCE4B1BCB6C3600DAB539 /* UIImageAdditions.h */,
+				C43FCE4C1BCB6C3600DAB539 /* UIImageAdditions.m */,
+				C43FCE4E1BCB6C6600DAB539 /* UIDeviceAdditions.h */,
+				C43FCE4F1BCB6C6600DAB539 /* UIDeviceAdditions.m */,
+				C43FCE511BCB6C7500DAB539 /* UIButttonAddition.h */,
+				C43FCE521BCB6C7500DAB539 /* UIButttonAddition.m */,
+				C43FCE6D1BCB741200DAB539 /* UILabelAdditions.h */,
+				C43FCE6E1BCB741200DAB539 /* UILabelAdditions.m */,
+				C43FCE531BCB6C7500DAB539 /* UIColor+expanded.h */,
+				C43FCE541BCB6C7500DAB539 /* UIColor+expanded.m */,
+				C43FCE551BCB6C7500DAB539 /* UIColorAdditions.h */,
+				C43FCE561BCB6C7500DAB539 /* UIColorAdditions.m */,
+				C43FCE5A1BCB6C8100DAB539 /* NSObjectAdditons.h */,
+				C43FCE5B1BCB6C8100DAB539 /* NSObjectAdditons.m */,
+				C43FCE5C1BCB6C8100DAB539 /* NSStringAdditions.h */,
+				C43FCE5D1BCB6C8100DAB539 /* NSStringAdditions.m */,
+				C43FCE601BCB731300DAB539 /* NSData+Base64.h */,
+				C43FCE611BCB731300DAB539 /* NSData+Base64.m */,
+				C43FCE621BCB731300DAB539 /* NSDate+Escort.h */,
+				C43FCE631BCB731300DAB539 /* NSDate+Escort.m */,
+				C43FCE641BCB731300DAB539 /* NSDateAdditions.h */,
+				C43FCE651BCB731300DAB539 /* NSDateAdditions.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C43FCDFA1BCB681F00DAB539 /* KSKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43FCE281BCB681F00DAB539 /* Build configuration list for PBXNativeTarget "KSKit" */;
+			buildPhases = (
+				C43FCDF71BCB681F00DAB539 /* Sources */,
+				C43FCDF81BCB681F00DAB539 /* Frameworks */,
+				C43FCDF91BCB681F00DAB539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSKit;
+			productName = KSKit;
+			productReference = C43FCDFB1BCB681F00DAB539 /* KSKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C43FCE131BCB681F00DAB539 /* KSKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43FCE2B1BCB681F00DAB539 /* Build configuration list for PBXNativeTarget "KSKitTests" */;
+			buildPhases = (
+				C43FCE101BCB681F00DAB539 /* Sources */,
+				C43FCE111BCB681F00DAB539 /* Frameworks */,
+				C43FCE121BCB681F00DAB539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C43FCE161BCB681F00DAB539 /* PBXTargetDependency */,
+			);
+			name = KSKitTests;
+			productName = KSKitTests;
+			productReference = C43FCE141BCB681F00DAB539 /* KSKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C43FCE1E1BCB681F00DAB539 /* KSKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43FCE2E1BCB681F00DAB539 /* Build configuration list for PBXNativeTarget "KSKitUITests" */;
+			buildPhases = (
+				C43FCE1B1BCB681F00DAB539 /* Sources */,
+				C43FCE1C1BCB681F00DAB539 /* Frameworks */,
+				C43FCE1D1BCB681F00DAB539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C43FCE211BCB681F00DAB539 /* PBXTargetDependency */,
+			);
+			name = KSKitUITests;
+			productName = KSKitUITests;
+			productReference = C43FCE1F1BCB681F00DAB539 /* KSKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C43FCDF31BCB681F00DAB539 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = jerry;
+				TargetAttributes = {
+					C43FCDFA1BCB681F00DAB539 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C43FCE131BCB681F00DAB539 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C43FCDFA1BCB681F00DAB539;
+					};
+					C43FCE1E1BCB681F00DAB539 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C43FCDFA1BCB681F00DAB539;
+					};
+				};
+			};
+			buildConfigurationList = C43FCDF61BCB681F00DAB539 /* Build configuration list for PBXProject "KSKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C43FCDF21BCB681F00DAB539;
+			productRefGroup = C43FCDFC1BCB681F00DAB539 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C43FCDFA1BCB681F00DAB539 /* KSKit */,
+				C43FCE131BCB681F00DAB539 /* KSKitTests */,
+				C43FCE1E1BCB681F00DAB539 /* KSKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C43FCDF91BCB681F00DAB539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43FCE0E1BCB681F00DAB539 /* LaunchScreen.storyboard in Resources */,
+				C43FCE0B1BCB681F00DAB539 /* Assets.xcassets in Resources */,
+				C43FCE091BCB681F00DAB539 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43FCE121BCB681F00DAB539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43FCE1D1BCB681F00DAB539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C43FCDF71BCB681F00DAB539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43FCE661BCB731300DAB539 /* NSData+Base64.m in Sources */,
+				C43FCE571BCB6C7500DAB539 /* UIButttonAddition.m in Sources */,
+				C43FCE341BCB685300DAB539 /* KSBootstrap.m in Sources */,
+				C43FCE4D1BCB6C3600DAB539 /* UIImageAdditions.m in Sources */,
+				C43FCE5F1BCB6C8100DAB539 /* NSStringAdditions.m in Sources */,
+				C43FCE061BCB681F00DAB539 /* ViewController.m in Sources */,
+				C43FCE031BCB681F00DAB539 /* AppDelegate.m in Sources */,
+				C43FCE581BCB6C7500DAB539 /* UIColor+expanded.m in Sources */,
+				C43FCE681BCB731300DAB539 /* NSDateAdditions.m in Sources */,
+				C43FCE411BCB6B6A00DAB539 /* UIUtil+KS.m in Sources */,
+				C43FCE5E1BCB6C8100DAB539 /* NSObjectAdditons.m in Sources */,
+				C43FCE3E1BCB6B4800DAB539 /* KSRoundedView.m in Sources */,
+				C43FCE3D1BCB6B4800DAB539 /* KSRoundAndBorderView.m in Sources */,
+				C43FCE591BCB6C7500DAB539 /* UIColorAdditions.m in Sources */,
+				C43FCE471BCB6BDB00DAB539 /* UIViewAdditions.m in Sources */,
+				C43FCE371BCB685F00DAB539 /* KSApp.m in Sources */,
+				C43FCE501BCB6C6600DAB539 /* UIDeviceAdditions.m in Sources */,
+				C43FCE671BCB731300DAB539 /* NSDate+Escort.m in Sources */,
+				C43FCE6F1BCB741200DAB539 /* UILabelAdditions.m in Sources */,
+				C43FCE441BCB6B8600DAB539 /* Reachability.m in Sources */,
+				C43FCE001BCB681F00DAB539 /* main.m in Sources */,
+				C43FCE4A1BCB6C2A00DAB539 /* UIImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43FCE101BCB681F00DAB539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43FCE191BCB681F00DAB539 /* KSKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43FCE1B1BCB681F00DAB539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43FCE241BCB681F00DAB539 /* KSKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C43FCE161BCB681F00DAB539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C43FCDFA1BCB681F00DAB539 /* KSKit */;
+			targetProxy = C43FCE151BCB681F00DAB539 /* PBXContainerItemProxy */;
+		};
+		C43FCE211BCB681F00DAB539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C43FCDFA1BCB681F00DAB539 /* KSKit */;
+			targetProxy = C43FCE201BCB681F00DAB539 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C43FCE071BCB681F00DAB539 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C43FCE081BCB681F00DAB539 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C43FCE0C1BCB681F00DAB539 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C43FCE0D1BCB681F00DAB539 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C43FCE261BCB681F00DAB539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C43FCE271BCB681F00DAB539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C43FCE291BCB681F00DAB539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tff.app.KSKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C43FCE2A1BCB681F00DAB539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tff.app.KSKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C43FCE2C1BCB681F00DAB539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KSKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tff.app.KSKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSKit.app/KSKit";
+			};
+			name = Debug;
+		};
+		C43FCE2D1BCB681F00DAB539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KSKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tff.app.KSKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSKit.app/KSKit";
+			};
+			name = Release;
+		};
+		C43FCE2F1BCB681F00DAB539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KSKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tff.app.KSKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSKit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C43FCE301BCB681F00DAB539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KSKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tff.app.KSKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSKit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C43FCDF61BCB681F00DAB539 /* Build configuration list for PBXProject "KSKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43FCE261BCB681F00DAB539 /* Debug */,
+				C43FCE271BCB681F00DAB539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43FCE281BCB681F00DAB539 /* Build configuration list for PBXNativeTarget "KSKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43FCE291BCB681F00DAB539 /* Debug */,
+				C43FCE2A1BCB681F00DAB539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C43FCE2B1BCB681F00DAB539 /* Build configuration list for PBXNativeTarget "KSKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43FCE2C1BCB681F00DAB539 /* Debug */,
+				C43FCE2D1BCB681F00DAB539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C43FCE2E1BCB681F00DAB539 /* Build configuration list for PBXNativeTarget "KSKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43FCE2F1BCB681F00DAB539 /* Debug */,
+				C43FCE301BCB681F00DAB539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C43FCDF31BCB681F00DAB539 /* Project object */;
+}
