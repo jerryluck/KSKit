@@ -3,13 +3,13 @@ Pod::Spec.new do |s|
   s.version          = '1.0'
   s.summary          = 'A library used on iOS.'
   s.description      = <<-DESC
-                       It is a marquee view used on iOS, which implement by Objective-C.
+                       It is a library used on iOS, which implement by Objective-C.
                        DESC
-  s.homepage         = 'https://github.com/jerryluck1/KSUIKit'
+  s.homepage         = 'https://github.com/jerryluck1/KSKit'
   # s.screenshots      = “www.example.com/screenshots_1”, “www.example.com/screenshots_2”
   s.license          = 'MIT'
   s.author           = { '高广亮' => 'gaoguang2008@126.com' }
-  s.source           = { :git => 'https://github.com/jerryluck1/KSUIKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jerryluck1/KSKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/NAME'
 
   s.platform     = :ios, '7.0'
@@ -17,24 +17,23 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  s.source_files = 'Lib/*.{h,m}'
+  s.source_files = 'Lib/*'
   #s.resources = 'KSKit/MBProgressHUD.bundle/**/*.png'
 
   # s.ios.exclude_files = 'Classes/osx'
   # s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
   s.framework = 'Foundation'
-s.framework = 'CoreFoundation'
-s.framework = 'CoreGraphics'
-s.framework = 'UIKit'
-s.framework = 'ImageIO'
-s.framework = 'CoreImage'
-s.framework = 'CoreGraphics'
-s.framework = 'SystemConfiguration'
-s.framework = 'MobileCoreServices'
-s.library   = 'xml2'
-s.library   = 'z'
-s.library   = 'sqlite'
-
+  s.framework = 'CoreFoundation'
+  s.framework = 'CoreGraphics'
+  s.framework = 'UIKit'
+  s.framework = 'ImageIO'
+  s.framework = 'CoreImage'
+  s.framework = 'CoreGraphics'
+  s.framework = 'SystemConfiguration'
+  s.framework = 'MobileCoreServices'
+  s.library   = 'xml2'
+  s.library   = 'z'
+  s.library   = 'sqlite'
 
 end
