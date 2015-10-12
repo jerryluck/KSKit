@@ -8,7 +8,7 @@
 
 #import "NSStringAdditions.h"
 #import <CommonCrypto/CommonDigest.h>
-#import "KSApp-Prefix.pch"
+#import "KSConfiguration.h"
 
 @implementation NSString (KS)
 

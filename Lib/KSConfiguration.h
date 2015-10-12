@@ -1,14 +1,13 @@
-
-
 //
-//  AppConfigHeader.h
-//  TFT
+//  KSConfiguration.h
+//  KSKit
 //
-//  Created by jerry on 15/9/2.
-//  Copyright (c) 2015年 jerry. All rights reserved.
+//  Created by jerry on 15/10/12.
+//  Copyright © 2015年 jerry. All rights reserved.
 //
 
-
+#ifndef KSConfiguration_h
+#define KSConfiguration_h
 
 
 
@@ -103,3 +102,6 @@
 
 
 
+
+
+#endif /* KSConfiguration_h */

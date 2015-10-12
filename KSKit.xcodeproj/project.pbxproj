@@ -74,7 +74,6 @@
 		C43FCE331BCB685300DAB539 /* KSBootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSBootstrap.m; sourceTree = "<group>"; };
 		C43FCE351BCB685F00DAB539 /* KSApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSApp.h; sourceTree = "<group>"; };
 		C43FCE361BCB685F00DAB539 /* KSApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSApp.m; sourceTree = "<group>"; };
-		C43FCE381BCB68B200DAB539 /* KSApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KSApp-Prefix.pch"; sourceTree = "<group>"; };
 		C43FCE391BCB6B4800DAB539 /* KSRoundAndBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSRoundAndBorderView.h; sourceTree = "<group>"; };
 		C43FCE3A1BCB6B4800DAB539 /* KSRoundAndBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSRoundAndBorderView.m; sourceTree = "<group>"; };
 		C43FCE3B1BCB6B4800DAB539 /* KSRoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSRoundedView.h; sourceTree = "<group>"; };
@@ -110,6 +109,7 @@
 		C43FCE6C1BCB73DB00DAB539 /* KSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSKit.h; sourceTree = "<group>"; };
 		C43FCE6D1BCB741200DAB539 /* UILabelAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelAdditions.h; sourceTree = "<group>"; };
 		C43FCE6E1BCB741200DAB539 /* UILabelAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelAdditions.m; sourceTree = "<group>"; };
+		C43FCE711BCB8E1100DAB539 /* KSConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSConfiguration.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,7 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				C43FCE6C1BCB73DB00DAB539 /* KSKit.h */,
-				C43FCE381BCB68B200DAB539 /* KSApp-Prefix.pch */,
+				C43FCE711BCB8E1100DAB539 /* KSConfiguration.h */,
 				C43FCE321BCB685300DAB539 /* KSBootstrap.h */,
 				C43FCE331BCB685300DAB539 /* KSBootstrap.m */,
 				C43FCE351BCB685F00DAB539 /* KSApp.h */,
@@ -624,6 +624,7 @@
 				C43FCE2A1BCB681F00DAB539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C43FCE2B1BCB681F00DAB539 /* Build configuration list for PBXNativeTarget "KSKitTests" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +633,7 @@
 				C43FCE2D1BCB681F00DAB539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C43FCE2E1BCB681F00DAB539 /* Build configuration list for PBXNativeTarget "KSKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -640,6 +642,7 @@
 				C43FCE301BCB681F00DAB539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

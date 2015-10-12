@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KSKit'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = 'A library used on iOS.'
   s.description      = <<-DESC
                        It is a library used on iOS, which implement by Objective-C.
@@ -23,17 +23,6 @@ Pod::Spec.new do |s|
   # s.ios.exclude_files = 'Classes/osx'
   # s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
-  s.framework = 'Foundation'
-  s.framework = 'CoreFoundation'
-  s.framework = 'CoreGraphics'
-  s.framework = 'UIKit'
-  s.framework = 'ImageIO'
-  s.framework = 'CoreImage'
-  s.framework = 'CoreGraphics'
-  s.framework = 'SystemConfiguration'
-  s.framework = 'MobileCoreServices'
-  s.library   = 'xml2'
-  s.library   = 'z'
-  s.library   = 'sqlite'
+
 
 end

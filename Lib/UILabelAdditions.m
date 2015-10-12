@@ -8,7 +8,7 @@
 
 #import "UILabelAdditions.h"
 #import "UIViewAdditions.h"
-#import "KSApp-Prefix.pch"
+#import "KSConfiguration.h"
 
 @implementation UILabel (KS)
 

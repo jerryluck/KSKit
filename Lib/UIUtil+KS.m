@@ -10,7 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "UIUtil+KS.h"
 #import "KSBootstrap.h"
-#import "KSApp-Prefix.pch"
+#import "KSConfiguration.h"
 #import "UIViewAdditions.h"
 
 

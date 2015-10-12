@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <sys/xattr.h>
 #import <UIKit/UIKit.h>
-#import "KSApp-Prefix.pch"
+#import "KSConfiguration.h"
 
 
 @interface KSDataCenter : NSObject{

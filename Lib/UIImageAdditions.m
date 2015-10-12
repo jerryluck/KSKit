@@ -9,7 +9,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import <Accelerate/Accelerate.h>
 #import "UIImageAdditions.h"
-#import "KSApp-Prefix.pch"
+#import "KSConfiguration.h"
 
 
 #define radians(x) (M_PI * x / 180.0)

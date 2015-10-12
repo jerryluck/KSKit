@@ -7,7 +7,7 @@
 //
 
 #import "NSDateAdditions.h"
-#import "KSApp-Prefix.pch"
+#import "KSConfiguration.h"
 #import "NSStringAdditions.h"
 
 @implementation NSDate (KS)
