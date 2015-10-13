@@ -533,10 +533,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Guangliang Gao (YPWTZ89X34)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Guangliang Gao (YPWTZ89X34)";
 				INFOPLIST_FILE = KSKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tff.app.KSKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timy.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "058c1c02-dec4-49a3-bff6-caa356498575";
 			};
 			name = Debug;
 		};
@@ -544,10 +547,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Guangliang Gao (Z6DY77Z3KM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Guangliang Gao (Z6DY77Z3KM)";
 				INFOPLIST_FILE = KSKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tff.app.KSKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timy.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9bb6b3ac-bfe7-40a7-b13a-4930d0693064";
 			};
 			name = Release;
 		};

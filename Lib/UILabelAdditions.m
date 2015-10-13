@@ -83,7 +83,24 @@
 #pragma clang diagnostic pop
 }
 
-
+- (void)textHeightWithSetTextLindSpace:(CGFloat)space
+{
+    //    if (SYSTEM_VERSION<6.0)
+    //    {
+    //
+    //        return ;
+    //    }
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:self.text];
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    
+    [paragraphStyle setLineSpacing:space];//调整行间距
+    paragraphStyle.alignment = self.textAlignment;
+    [attributedString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, [self.text length])];
+    
+    self.attributedText = attributedString;
+    
+    //    [self sizeToFit];
+}
 
 
 @end

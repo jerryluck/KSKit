@@ -29,6 +29,8 @@
 - (CGFloat)attributeTextWidth;
 - (CGFloat)attributeTextHeight;
 
+- (void)textHeightWithSetTextLindSpace:(CGFloat)space;
+
 
 @end
 
