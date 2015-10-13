@@ -9,11 +9,11 @@ echo -e "\033[32mgit tag ""'"$version"'""\033[0m"
 
 git tag ''$version''
 
-echo -e "\033[33mgit push --tags\033[0m"
+echo -e "\033[32mgit push --tags\033[0m"
 
 git push --tags
 
-echo -e "\033[33mgit push origin master\033[0m"
+echo -e "\033[32mgit push origin master\033[0m"
 
 git push origin master
 
@@ -30,8 +30,8 @@ echo -e "\033[32mpod trunk push KSKit.podspec --verbose\033[0m"
 
 pod trunk push KSKit.podspec --verbose
 
-echo -e "\033[33msetup pod\033[0m"
+echo -e "\033[32msetup pod\033[0m"
 
-pod setup
-
-echo -e "\033[33m结束\033[0m"
+#pod setup
+#
+#echo -e "\033[32m结束\033[0m"
