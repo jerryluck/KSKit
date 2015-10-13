@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40F13DD1BCCBB3300493D4D /* KSApp.m in Sources */ = {isa = PBXBuildFile; fileRef = C40F13D81BCCBB3300493D4D /* KSApp.m */; settings = {ASSET_TAGS = (); }; };
+		C40F13DE1BCCBB3300493D4D /* KSBootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = C40F13DA1BCCBB3300493D4D /* KSBootstrap.m */; settings = {ASSET_TAGS = (); }; };
+		C40F13DF1BCCBB3300493D4D /* UIUtil+KS.m in Sources */ = {isa = PBXBuildFile; fileRef = C40F13DC1BCCBB3300493D4D /* UIUtil+KS.m */; settings = {ASSET_TAGS = (); }; };
 		C43FCE001BCB681F00DAB539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCDFF1BCB681F00DAB539 /* main.m */; };
 		C43FCE031BCB681F00DAB539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE021BCB681F00DAB539 /* AppDelegate.m */; };
 		C43FCE061BCB681F00DAB539 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE051BCB681F00DAB539 /* ViewController.m */; };
@@ -50,6 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C40F13D71BCCBB3300493D4D /* KSApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSApp.h; sourceTree = "<group>"; };
+		C40F13D81BCCBB3300493D4D /* KSApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSApp.m; sourceTree = "<group>"; };
+		C40F13D91BCCBB3300493D4D /* KSBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSBootstrap.h; sourceTree = "<group>"; };
+		C40F13DA1BCCBB3300493D4D /* KSBootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSBootstrap.m; sourceTree = "<group>"; };
+		C40F13DB1BCCBB3300493D4D /* UIUtil+KS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIUtil+KS.h"; sourceTree = "<group>"; };
+		C40F13DC1BCCBB3300493D4D /* UIUtil+KS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIUtil+KS.m"; sourceTree = "<group>"; };
 		C43FCDFB1BCB681F00DAB539 /* KSKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43FCDFF1BCB681F00DAB539 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C43FCE011BCB681F00DAB539 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -193,6 +202,12 @@
 			children = (
 				C4C9DC881BCBCB6500E002FA /* KSKit.h */,
 				C4C9DC871BCBCB6500E002FA /* KSConfiguration.h */,
+				C40F13D71BCCBB3300493D4D /* KSApp.h */,
+				C40F13D81BCCBB3300493D4D /* KSApp.m */,
+				C40F13D91BCCBB3300493D4D /* KSBootstrap.h */,
+				C40F13DA1BCCBB3300493D4D /* KSBootstrap.m */,
+				C40F13DB1BCCBB3300493D4D /* UIUtil+KS.h */,
+				C40F13DC1BCCBB3300493D4D /* UIUtil+KS.m */,
 				C4631BB11BCCADE800B2ACF0 /* KSRoundAndBorderView.h */,
 				C4631BB21BCCADE800B2ACF0 /* KSRoundAndBorderView.m */,
 				C4631BB31BCCADE800B2ACF0 /* KSRoundedView.h */,
@@ -360,6 +375,8 @@
 				C4631BD21BCCADE800B2ACF0 /* NSDate+Escort.m in Sources */,
 				C43FCE061BCB681F00DAB539 /* ViewController.m in Sources */,
 				C4631BDD1BCCADE800B2ACF0 /* UIViewAdditions.m in Sources */,
+				C40F13DD1BCCBB3300493D4D /* KSApp.m in Sources */,
+				C40F13DE1BCCBB3300493D4D /* KSBootstrap.m in Sources */,
 				C4631BD31BCCADE800B2ACF0 /* NSDateAdditions.m in Sources */,
 				C4631BD91BCCADE800B2ACF0 /* UIColorAdditions.m in Sources */,
 				C4631BD61BCCADE800B2ACF0 /* Reachability.m in Sources */,
@@ -372,6 +389,7 @@
 				C4631BD41BCCADE800B2ACF0 /* NSObjectAdditons.m in Sources */,
 				C4631BD71BCCADE800B2ACF0 /* UIButttonAddition.m in Sources */,
 				C4631BCF1BCCADE800B2ACF0 /* KSRoundAndBorderView.m in Sources */,
+				C40F13DF1BCCBB3300493D4D /* UIUtil+KS.m in Sources */,
 				C4631BDB1BCCADE800B2ACF0 /* UIImageAdditions.m in Sources */,
 				C4631BD11BCCADE800B2ACF0 /* NSData+Base64.m in Sources */,
 				C4631BD51BCCADE800B2ACF0 /* NSStringAdditions.m in Sources */,
