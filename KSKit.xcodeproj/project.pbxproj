@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6C82BDAF50471FF9523C645 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DDAEC2CE621F372B918AAC /* libPods.a */; };
 		C43FCE001BCB681F00DAB539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCDFF1BCB681F00DAB539 /* main.m */; };
 		C43FCE031BCB681F00DAB539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE021BCB681F00DAB539 /* AppDelegate.m */; };
 		C43FCE061BCB681F00DAB539 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C43FCE051BCB681F00DAB539 /* ViewController.m */; };
@@ -22,7 +23,6 @@
 		C4631BD31BCCADE800B2ACF0 /* NSDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BBA1BCCADE800B2ACF0 /* NSDateAdditions.m */; settings = {ASSET_TAGS = (); }; };
 		C4631BD41BCCADE800B2ACF0 /* NSObjectAdditons.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BBC1BCCADE800B2ACF0 /* NSObjectAdditons.m */; settings = {ASSET_TAGS = (); }; };
 		C4631BD51BCCADE800B2ACF0 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BBE1BCCADE800B2ACF0 /* NSStringAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		C4631BD61BCCADE800B2ACF0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BC01BCCADE800B2ACF0 /* Reachability.m */; settings = {ASSET_TAGS = (); }; };
 		C4631BD71BCCADE800B2ACF0 /* UIButttonAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BC21BCCADE800B2ACF0 /* UIButttonAddition.m */; settings = {ASSET_TAGS = (); }; };
 		C4631BD81BCCADE800B2ACF0 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BC41BCCADE800B2ACF0 /* UIColor+expanded.m */; settings = {ASSET_TAGS = (); }; };
 		C4631BD91BCCADE800B2ACF0 /* UIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BC61BCCADE800B2ACF0 /* UIColorAdditions.m */; settings = {ASSET_TAGS = (); }; };
@@ -30,6 +30,9 @@
 		C4631BDB1BCCADE800B2ACF0 /* UIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BCA1BCCADE800B2ACF0 /* UIImageAdditions.m */; settings = {ASSET_TAGS = (); }; };
 		C4631BDC1BCCADE800B2ACF0 /* UILabelAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BCC1BCCADE800B2ACF0 /* UILabelAdditions.m */; settings = {ASSET_TAGS = (); }; };
 		C4631BDD1BCCADE800B2ACF0 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BCE1BCCADE800B2ACF0 /* UIViewAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		C4631BE41BCCB21300B2ACF0 /* KSApp.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BDF1BCCB21300B2ACF0 /* KSApp.m */; settings = {ASSET_TAGS = (); }; };
+		C4631BE51BCCB21300B2ACF0 /* KSBootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BE11BCCB21300B2ACF0 /* KSBootstrap.m */; settings = {ASSET_TAGS = (); }; };
+		C4631BE61BCCB21300B2ACF0 /* UIUtil+KS.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BE31BCCB21300B2ACF0 /* UIUtil+KS.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17A085A571EB8CBF723E26FC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4DAB146B073C3A2EDE80C9F0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		95DDAEC2CE621F372B918AAC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43FCDFB1BCB681F00DAB539 /* KSKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43FCDFF1BCB681F00DAB539 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C43FCE011BCB681F00DAB539 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,8 +86,6 @@
 		C4631BBC1BCCADE800B2ACF0 /* NSObjectAdditons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectAdditons.m; sourceTree = "<group>"; };
 		C4631BBD1BCCADE800B2ACF0 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
 		C4631BBE1BCCADE800B2ACF0 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
-		C4631BBF1BCCADE800B2ACF0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		C4631BC01BCCADE800B2ACF0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		C4631BC11BCCADE800B2ACF0 /* UIButttonAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButttonAddition.h; sourceTree = "<group>"; };
 		C4631BC21BCCADE800B2ACF0 /* UIButttonAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButttonAddition.m; sourceTree = "<group>"; };
 		C4631BC31BCCADE800B2ACF0 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
@@ -96,6 +100,12 @@
 		C4631BCC1BCCADE800B2ACF0 /* UILabelAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelAdditions.m; sourceTree = "<group>"; };
 		C4631BCD1BCCADE800B2ACF0 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
 		C4631BCE1BCCADE800B2ACF0 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+		C4631BDE1BCCB21300B2ACF0 /* KSApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSApp.h; sourceTree = "<group>"; };
+		C4631BDF1BCCB21300B2ACF0 /* KSApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSApp.m; sourceTree = "<group>"; };
+		C4631BE01BCCB21300B2ACF0 /* KSBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSBootstrap.h; sourceTree = "<group>"; };
+		C4631BE11BCCB21300B2ACF0 /* KSBootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSBootstrap.m; sourceTree = "<group>"; };
+		C4631BE21BCCB21300B2ACF0 /* UIUtil+KS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIUtil+KS.h"; sourceTree = "<group>"; };
+		C4631BE31BCCB21300B2ACF0 /* UIUtil+KS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIUtil+KS.m"; sourceTree = "<group>"; };
 		C4C9DC871BCBCB6500E002FA /* KSConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSConfiguration.h; sourceTree = "<group>"; };
 		C4C9DC881BCBCB6500E002FA /* KSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C82BDAF50471FF9523C645 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +136,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B20D34307A00B0B38CF9862 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95DDAEC2CE621F372B918AAC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C43FCDF21BCB681F00DAB539 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +152,8 @@
 				C43FCE171BCB681F00DAB539 /* KSKitTests */,
 				C43FCE221BCB681F00DAB539 /* KSKitUITests */,
 				C43FCDFC1BCB681F00DAB539 /* Products */,
+				D64E3B174A5EB2C08C626A63 /* Pods */,
+				4B20D34307A00B0B38CF9862 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,6 +213,12 @@
 			isa = PBXGroup;
 			children = (
 				C4C9DC881BCBCB6500E002FA /* KSKit.h */,
+				C4631BDE1BCCB21300B2ACF0 /* KSApp.h */,
+				C4631BDF1BCCB21300B2ACF0 /* KSApp.m */,
+				C4631BE01BCCB21300B2ACF0 /* KSBootstrap.h */,
+				C4631BE11BCCB21300B2ACF0 /* KSBootstrap.m */,
+				C4631BE21BCCB21300B2ACF0 /* UIUtil+KS.h */,
+				C4631BE31BCCB21300B2ACF0 /* UIUtil+KS.m */,
 				C4C9DC871BCBCB6500E002FA /* KSConfiguration.h */,
 				C4631BB11BCCADE800B2ACF0 /* KSRoundAndBorderView.h */,
 				C4631BB21BCCADE800B2ACF0 /* KSRoundAndBorderView.m */,
@@ -207,8 +234,6 @@
 				C4631BBC1BCCADE800B2ACF0 /* NSObjectAdditons.m */,
 				C4631BBD1BCCADE800B2ACF0 /* NSStringAdditions.h */,
 				C4631BBE1BCCADE800B2ACF0 /* NSStringAdditions.m */,
-				C4631BBF1BCCADE800B2ACF0 /* Reachability.h */,
-				C4631BC01BCCADE800B2ACF0 /* Reachability.m */,
 				C4631BC11BCCADE800B2ACF0 /* UIButttonAddition.h */,
 				C4631BC21BCCADE800B2ACF0 /* UIButttonAddition.m */,
 				C4631BC31BCCADE800B2ACF0 /* UIColor+expanded.h */,
@@ -227,6 +252,15 @@
 			path = Lib;
 			sourceTree = "<group>";
 		};
+		D64E3B174A5EB2C08C626A63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DAB146B073C3A2EDE80C9F0 /* Pods.debug.xcconfig */,
+				17A085A571EB8CBF723E26FC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,9 +268,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C43FCE281BCB681F00DAB539 /* Build configuration list for PBXNativeTarget "KSKit" */;
 			buildPhases = (
+				7D1A86945C2462C87C0DE48F /* Check Pods Manifest.lock */,
 				C43FCDF71BCB681F00DAB539 /* Sources */,
 				C43FCDF81BCB681F00DAB539 /* Frameworks */,
 				C43FCDF91BCB681F00DAB539 /* Resources */,
+				F1B7C72E1E2880484DE733C4 /* Embed Pods Frameworks */,
+				5375BFA7452268E11DE22AB1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -352,6 +389,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5375BFA7452268E11DE22AB1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D1A86945C2462C87C0DE48F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1B7C72E1E2880484DE733C4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C43FCDF71BCB681F00DAB539 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -360,9 +445,10 @@
 				C4631BD21BCCADE800B2ACF0 /* NSDate+Escort.m in Sources */,
 				C43FCE061BCB681F00DAB539 /* ViewController.m in Sources */,
 				C4631BDD1BCCADE800B2ACF0 /* UIViewAdditions.m in Sources */,
+				C4631BE41BCCB21300B2ACF0 /* KSApp.m in Sources */,
+				C4631BE51BCCB21300B2ACF0 /* KSBootstrap.m in Sources */,
 				C4631BD31BCCADE800B2ACF0 /* NSDateAdditions.m in Sources */,
 				C4631BD91BCCADE800B2ACF0 /* UIColorAdditions.m in Sources */,
-				C4631BD61BCCADE800B2ACF0 /* Reachability.m in Sources */,
 				C4631BD01BCCADE800B2ACF0 /* KSRoundedView.m in Sources */,
 				C43FCE031BCB681F00DAB539 /* AppDelegate.m in Sources */,
 				C4631BD81BCCADE800B2ACF0 /* UIColor+expanded.m in Sources */,
@@ -372,6 +458,7 @@
 				C4631BD41BCCADE800B2ACF0 /* NSObjectAdditons.m in Sources */,
 				C4631BD71BCCADE800B2ACF0 /* UIButttonAddition.m in Sources */,
 				C4631BCF1BCCADE800B2ACF0 /* KSRoundAndBorderView.m in Sources */,
+				C4631BE61BCCB21300B2ACF0 /* UIUtil+KS.m in Sources */,
 				C4631BDB1BCCADE800B2ACF0 /* UIImageAdditions.m in Sources */,
 				C4631BD11BCCADE800B2ACF0 /* NSData+Base64.m in Sources */,
 				C4631BD51BCCADE800B2ACF0 /* NSStringAdditions.m in Sources */,
@@ -513,6 +600,7 @@
 		};
 		C43FCE291BCB681F00DAB539 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DAB146B073C3A2EDE80C9F0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KSKit/Info.plist;
@@ -524,6 +612,7 @@
 		};
 		C43FCE2A1BCB681F00DAB539 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A085A571EB8CBF723E26FC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KSKit/Info.plist;
