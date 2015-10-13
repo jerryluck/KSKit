@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (Color)
+@interface UIImage (ColorCategort)
 /**
  *  @brief  根据颜色生成纯色图片
  *

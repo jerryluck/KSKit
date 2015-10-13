@@ -10,7 +10,7 @@
 - (CGImageRef)newBorderMask:(NSUInteger)borderSize size:(CGSize)size;
 @end
 
-@implementation UIImage (Alpha)
+@implementation UIImage (Alp)
 /**
  *  @brief  是否有alpha通道
  *

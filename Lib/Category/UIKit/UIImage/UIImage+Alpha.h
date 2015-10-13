@@ -6,7 +6,7 @@
 // Helper methods for adding an alpha layer to an image
 #import <UIKit/UIKit.h>
 
-@interface UIImage (Alpha)
+@interface UIImage (Alp)
 /**
  *  @brief  是否有alpha通道
  *

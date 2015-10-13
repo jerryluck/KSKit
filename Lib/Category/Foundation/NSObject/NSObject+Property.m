@@ -153,7 +153,7 @@
                 if (!validIndex)
                 {
                     NSString* error = [NSString stringWithFormat:@"Index:%zd out of bounds for valueAtKeyPath:@\"%@\" for array:0x%p.count = %zd", index, keyPath, &object, [object count]];
-                    NSAssert(validIndex, error);
+                    NSLog(@"%@",error);
                 }
                 object = [object objectAtIndex:index];
             }

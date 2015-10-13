@@ -48,8 +48,8 @@ static char kTextFieldHistoryviewIdentifyKey;
         [table registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITextFieldHistoryCell"];
         table.layer.borderColor = [UIColor grayColor].CGColor;
         table.layer.borderWidth = 1;
-        table.delegate = self;
-        table.dataSource = self;
+//        table.delegate = self;
+//        table.dataSource = self;
         objc_setAssociatedObject(self, &kTextFieldHistoryviewIdentifyKey, table, OBJC_ASSOCIATION_RETAIN);
     }
     

@@ -11,7 +11,7 @@
 - (void)addRoundedRectToPath:(CGRect)rect context:(CGContextRef)context ovalWidth:(CGFloat)ovalWidth ovalHeight:(CGFloat)ovalHeight;
 @end
 
-@implementation UIImage (RoundedCorner)
+@implementation UIImage (RoundedCornerCategory)
 
 // Creates a copy of this image with rounded corners
 // If borderSize is non-zero, a transparent border of the given size will also be added

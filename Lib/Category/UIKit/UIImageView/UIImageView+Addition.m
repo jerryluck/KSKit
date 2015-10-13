@@ -71,39 +71,39 @@
     UIGraphicsEndImageContext();
     self.image = newPic;
 }
-- (void) setImage:(UIImage *)image withStringWaterMark:(NSString *)markString inRect:(CGRect)rect color:(UIColor *)color font:(UIFont *)font
-{
-    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 4.0)
-    {
-        UIGraphicsBeginImageContextWithOptions(self.frame.size, NO, 0.0); // 0.0 for scale means "scale for device's main screen".
-    }
-    //原图
-    [image drawInRect:self.bounds];
-    //文字颜色
-    [color set];
-    // const CGFloat *colorComponents = CGColorGetComponents([color CGColor]);
-    // CGContextSetRGBFillColor(context, colorComponents[0], colorComponents[1], colorComponents [2], colorComponents[3]);
-    //水印文字
-    [markString drawInRect:rect withFont:font];
-    UIImage *newPic = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    self.image = newPic;
-}
-- (void) setImage:(UIImage *)image withStringWaterMark:(NSString *)markString atPoint:(CGPoint)point color:(UIColor *)color font:(UIFont *)font
-{
-    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 4.0)
-    {
-        UIGraphicsBeginImageContextWithOptions(self.frame.size, NO, 0.0); // 0.0 for scale means "scale for device's main screen".
-    }
-    //原图
-    [image drawInRect:self.bounds];
-    //文字颜色
-    [color set];
-    //水印文字
-    [markString drawAtPoint:point withFont:font];
-    UIImage *newPic = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    self.image = newPic;
-}
+//- (void) setImage:(UIImage *)image withStringWaterMark:(NSString *)markString inRect:(CGRect)rect color:(UIColor *)color font:(UIFont *)font
+//{
+//    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 4.0)
+//    {
+//        UIGraphicsBeginImageContextWithOptions(self.frame.size, NO, 0.0); // 0.0 for scale means "scale for device's main screen".
+//    }
+//    //原图
+//    [image drawInRect:self.bounds];
+//    //文字颜色
+//    [color set];
+//    // const CGFloat *colorComponents = CGColorGetComponents([color CGColor]);
+//    // CGContextSetRGBFillColor(context, colorComponents[0], colorComponents[1], colorComponents [2], colorComponents[3]);
+//    //水印文字
+//    [markString drawInRect:rect withFont:font];
+//    UIImage *newPic = UIGraphicsGetImageFromCurrentImageContext();
+//    UIGraphicsEndImageContext();
+//    self.image = newPic;
+//}
+//- (void) setImage:(UIImage *)image withStringWaterMark:(NSString *)markString atPoint:(CGPoint)point color:(UIColor *)color font:(UIFont *)font
+//{
+//    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 4.0)
+//    {
+//        UIGraphicsBeginImageContextWithOptions(self.frame.size, NO, 0.0); // 0.0 for scale means "scale for device's main screen".
+//    }
+//    //原图
+//    [image drawInRect:self.bounds];
+//    //文字颜色
+//    [color set];
+//    //水印文字
+//    [markString drawAtPoint:point withFont:font];
+//    UIImage *newPic = UIGraphicsGetImageFromCurrentImageContext();
+//    UIGraphicsEndImageContext();
+//    self.image = newPic;
+//}
 
 @end

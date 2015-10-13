@@ -16,7 +16,7 @@
 - (CGAffineTransform)transformForOrientation:(CGSize)newSize;
 @end
 
-@implementation UIImage (Resize)
+@implementation UIImage (ResizeCategory)
 
 // Returns a copy of this image that is cropped to the given bounds.
 // The bounds will be adjusted using CGRectIntegral.
@@ -118,7 +118,7 @@
     // Build a context that's the same dimensions as the new size
 	CGBitmapInfo bitmapInfo = CGImageGetBitmapInfo(imageRef);
 	if((bitmapInfo == kCGImageAlphaLast) || (bitmapInfo == kCGImageAlphaNone))
-		bitmapInfo = kCGImageAlphaNoneSkipLast;
+		bitmapInfo = (CGBitmapInfo)kCGImageAlphaNoneSkipLast;
 		
     CGContextRef bitmap = CGBitmapContextCreate(NULL,
                                                 newRect.size.width,

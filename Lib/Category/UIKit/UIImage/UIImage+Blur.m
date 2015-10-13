@@ -8,7 +8,7 @@
 
 #import "UIImage+Blur.h"
 @import Accelerate;
-@implementation UIImage (Blur)
+@implementation UIImage (BlurCategory)
 #pragma mark -
 #pragma mark - Effects
 
