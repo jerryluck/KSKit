@@ -7,7 +7,7 @@ echo -e "\033[32mgit add -A && git commit -m " '"'$version'"' "\033[0m"
 git add -A && git commit -m '"'$version'"'
 echo -e "\033[32mgit tag ""'"$version"'""\033[0m"
 
-git tag "'"$version"'"
+git tag ''$version''
 
 echo -e "\033[33mgit push --tags\033[0m"
 
