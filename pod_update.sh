@@ -4,10 +4,10 @@
 
 echo -e "\033[32mthe version is: "$version"\033[0m"
 echo -e "\033[32mgit add -A && git commit -m " '"'$version'"' "\033[0m"
-git add -A && git commit -m "3.0"
+git add -A && git commit -m "3.1"
 echo -e "\033[32mgit tag ""'"$version"'""\033[0m"
 
-git tag '3.0'
+git tag '3.1'
 
 echo -e "\033[32mgit push --tags\033[0m"
 
@@ -19,11 +19,11 @@ git push origin master
 
 echo -e "\033[32mset the new version to "$version"\033[0m"
 
-set the new version to 3.0
+set the new version to 3.1
 
 echo -e "\033[32mset the new tag to "$version"\033[0m"
 
-set the new tag to 3.0
+set the new tag to 3.1
 
 
 echo -e "\033[32mpod trunk push KSKit.podspec --verbose\033[0m"
