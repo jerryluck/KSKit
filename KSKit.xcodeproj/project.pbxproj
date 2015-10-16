@@ -33,6 +33,14 @@
 		C4631BDB1BCCADE800B2ACF0 /* UIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BCA1BCCADE800B2ACF0 /* UIImageAdditions.m */; settings = {ASSET_TAGS = (); }; };
 		C4631BDC1BCCADE800B2ACF0 /* UILabelAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BCC1BCCADE800B2ACF0 /* UILabelAdditions.m */; settings = {ASSET_TAGS = (); }; };
 		C4631BDD1BCCADE800B2ACF0 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4631BCE1BCCADE800B2ACF0 /* UIViewAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		C468CC4F1BD0AFC90092FFF0 /* UIControl+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = C468CC4C1BD0AFC90092FFF0 /* UIControl+Block.m */; settings = {ASSET_TAGS = (); }; };
+		C468CC501BD0AFC90092FFF0 /* UIControl+ActionBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C468CC4E1BD0AFC90092FFF0 /* UIControl+ActionBlocks.m */; settings = {ASSET_TAGS = (); }; };
+		C468CC5D1BD0B06E0092FFF0 /* UIButton+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C468CC521BD0B06E0092FFF0 /* UIButton+BackgroundColor.m */; settings = {ASSET_TAGS = (); }; };
+		C468CC5E1BD0B06E0092FFF0 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = C468CC541BD0B06E0092FFF0 /* UIButton+Block.m */; settings = {ASSET_TAGS = (); }; };
+		C468CC5F1BD0B06E0092FFF0 /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = C468CC561BD0B06E0092FFF0 /* UIButton+CountDown.m */; settings = {ASSET_TAGS = (); }; };
+		C468CC601BD0B06E0092FFF0 /* UIButton+Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = C468CC581BD0B06E0092FFF0 /* UIButton+Indicator.m */; settings = {ASSET_TAGS = (); }; };
+		C468CC611BD0B06E0092FFF0 /* UIButton+Submitting.m in Sources */ = {isa = PBXBuildFile; fileRef = C468CC5A1BD0B06E0092FFF0 /* UIButton+Submitting.m */; settings = {ASSET_TAGS = (); }; };
+		C468CC621BD0B06E0092FFF0 /* UIButton+TouchAreaInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = C468CC5C1BD0B06E0092FFF0 /* UIButton+TouchAreaInsets.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +113,22 @@
 		C4631BCC1BCCADE800B2ACF0 /* UILabelAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelAdditions.m; sourceTree = "<group>"; };
 		C4631BCD1BCCADE800B2ACF0 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
 		C4631BCE1BCCADE800B2ACF0 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+		C468CC4B1BD0AFC90092FFF0 /* UIControl+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Block.h"; sourceTree = "<group>"; };
+		C468CC4C1BD0AFC90092FFF0 /* UIControl+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Block.m"; sourceTree = "<group>"; };
+		C468CC4D1BD0AFC90092FFF0 /* UIControl+ActionBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ActionBlocks.h"; sourceTree = "<group>"; };
+		C468CC4E1BD0AFC90092FFF0 /* UIControl+ActionBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ActionBlocks.m"; sourceTree = "<group>"; };
+		C468CC511BD0B06E0092FFF0 /* UIButton+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+BackgroundColor.h"; path = "Lib/UIButton+BackgroundColor.h"; sourceTree = "<group>"; };
+		C468CC521BD0B06E0092FFF0 /* UIButton+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+BackgroundColor.m"; path = "Lib/UIButton+BackgroundColor.m"; sourceTree = "<group>"; };
+		C468CC531BD0B06E0092FFF0 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Block.h"; path = "Lib/UIButton+Block.h"; sourceTree = "<group>"; };
+		C468CC541BD0B06E0092FFF0 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Block.m"; path = "Lib/UIButton+Block.m"; sourceTree = "<group>"; };
+		C468CC551BD0B06E0092FFF0 /* UIButton+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+CountDown.h"; path = "Lib/UIButton+CountDown.h"; sourceTree = "<group>"; };
+		C468CC561BD0B06E0092FFF0 /* UIButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CountDown.m"; path = "Lib/UIButton+CountDown.m"; sourceTree = "<group>"; };
+		C468CC571BD0B06E0092FFF0 /* UIButton+Indicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Indicator.h"; path = "Lib/UIButton+Indicator.h"; sourceTree = "<group>"; };
+		C468CC581BD0B06E0092FFF0 /* UIButton+Indicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Indicator.m"; path = "Lib/UIButton+Indicator.m"; sourceTree = "<group>"; };
+		C468CC591BD0B06E0092FFF0 /* UIButton+Submitting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Submitting.h"; path = "Lib/UIButton+Submitting.h"; sourceTree = "<group>"; };
+		C468CC5A1BD0B06E0092FFF0 /* UIButton+Submitting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Submitting.m"; path = "Lib/UIButton+Submitting.m"; sourceTree = "<group>"; };
+		C468CC5B1BD0B06E0092FFF0 /* UIButton+TouchAreaInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+TouchAreaInsets.h"; path = "Lib/UIButton+TouchAreaInsets.h"; sourceTree = "<group>"; };
+		C468CC5C1BD0B06E0092FFF0 /* UIButton+TouchAreaInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TouchAreaInsets.m"; path = "Lib/UIButton+TouchAreaInsets.m"; sourceTree = "<group>"; };
 		C4C9DC871BCBCB6500E002FA /* KSConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSConfiguration.h; sourceTree = "<group>"; };
 		C4C9DC881BCBCB6500E002FA /* KSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -200,6 +224,8 @@
 		C43FCE311BCB684200DAB539 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				C468CC4A1BD0AFBC0092FFF0 /* UIControl */,
+				C468CC371BD0AE880092FFF0 /* UIButton */,
 				C4C9DC881BCBCB6500E002FA /* KSKit.h */,
 				C4C9DC871BCBCB6500E002FA /* KSConfiguration.h */,
 				C40F13D71BCCBB3300493D4D /* KSApp.h */,
@@ -240,6 +266,37 @@
 				C4631BCE1BCCADE800B2ACF0 /* UIViewAdditions.m */,
 			);
 			path = Lib;
+			sourceTree = "<group>";
+		};
+		C468CC371BD0AE880092FFF0 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				C468CC511BD0B06E0092FFF0 /* UIButton+BackgroundColor.h */,
+				C468CC521BD0B06E0092FFF0 /* UIButton+BackgroundColor.m */,
+				C468CC531BD0B06E0092FFF0 /* UIButton+Block.h */,
+				C468CC541BD0B06E0092FFF0 /* UIButton+Block.m */,
+				C468CC551BD0B06E0092FFF0 /* UIButton+CountDown.h */,
+				C468CC561BD0B06E0092FFF0 /* UIButton+CountDown.m */,
+				C468CC571BD0B06E0092FFF0 /* UIButton+Indicator.h */,
+				C468CC581BD0B06E0092FFF0 /* UIButton+Indicator.m */,
+				C468CC591BD0B06E0092FFF0 /* UIButton+Submitting.h */,
+				C468CC5A1BD0B06E0092FFF0 /* UIButton+Submitting.m */,
+				C468CC5B1BD0B06E0092FFF0 /* UIButton+TouchAreaInsets.h */,
+				C468CC5C1BD0B06E0092FFF0 /* UIButton+TouchAreaInsets.m */,
+			);
+			name = UIButton;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C468CC4A1BD0AFBC0092FFF0 /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				C468CC4B1BD0AFC90092FFF0 /* UIControl+Block.h */,
+				C468CC4C1BD0AFC90092FFF0 /* UIControl+Block.m */,
+				C468CC4D1BD0AFC90092FFF0 /* UIControl+ActionBlocks.h */,
+				C468CC4E1BD0AFC90092FFF0 /* UIControl+ActionBlocks.m */,
+			);
+			name = UIControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,14 +430,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4631BD21BCCADE800B2ACF0 /* NSDate+Escort.m in Sources */,
+				C468CC5D1BD0B06E0092FFF0 /* UIButton+BackgroundColor.m in Sources */,
+				C468CC621BD0B06E0092FFF0 /* UIButton+TouchAreaInsets.m in Sources */,
+				C468CC601BD0B06E0092FFF0 /* UIButton+Indicator.m in Sources */,
 				C43FCE061BCB681F00DAB539 /* ViewController.m in Sources */,
 				C4631BDD1BCCADE800B2ACF0 /* UIViewAdditions.m in Sources */,
 				C40F13DD1BCCBB3300493D4D /* KSApp.m in Sources */,
+				C468CC5F1BD0B06E0092FFF0 /* UIButton+CountDown.m in Sources */,
 				C40F13DE1BCCBB3300493D4D /* KSBootstrap.m in Sources */,
 				C4631BD31BCCADE800B2ACF0 /* NSDateAdditions.m in Sources */,
 				C4631BD91BCCADE800B2ACF0 /* UIColorAdditions.m in Sources */,
 				C4631BD61BCCADE800B2ACF0 /* Reachability.m in Sources */,
+				C468CC611BD0B06E0092FFF0 /* UIButton+Submitting.m in Sources */,
 				C4631BD01BCCADE800B2ACF0 /* KSRoundedView.m in Sources */,
+				C468CC501BD0AFC90092FFF0 /* UIControl+ActionBlocks.m in Sources */,
+				C468CC5E1BD0B06E0092FFF0 /* UIButton+Block.m in Sources */,
+				C468CC4F1BD0AFC90092FFF0 /* UIControl+Block.m in Sources */,
 				C43FCE031BCB681F00DAB539 /* AppDelegate.m in Sources */,
 				C4631BD81BCCADE800B2ACF0 /* UIColor+expanded.m in Sources */,
 				C4631BDA1BCCADE800B2ACF0 /* UIDeviceAdditions.m in Sources */,

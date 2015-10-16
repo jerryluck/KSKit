@@ -101,12 +101,12 @@
 //#import "UIBezierPath+SVG.h"
 //#import "UIBezierPath+Symbol.h"
 //
-//#import "UIButton+BackgroundColor.h"
-//#import "UIButton+Block.h"
-//#import "UIButton+CountDown.h"
-//#import "UIButton+Indicator.h"
-//#import "UIButton+Submitting.h"
-//#import "UIButton+TouchAreaInsets.h"
+#import "UIButton+BackgroundColor.h"
+#import "UIButton+Block.h"
+#import "UIButton+CountDown.h"
+#import "UIButton+Indicator.h"
+#import "UIButton+Submitting.h"
+#import "UIButton+TouchAreaInsets.h"
 //
 //#import "UIColor+Gradient.h"
 //#import "UIColor+HEX.h"
@@ -114,8 +114,8 @@
 //#import "UIColor+Random.h"
 //#import "UIColor+Web.h"
 //
-//#import "UIControl+ActionBlocks.h"
-//#import "UIControl+Block.h"
+#import "UIControl+ActionBlocks.h"
+#import "UIControl+Block.h"
 //
 //#import "UIDevice+Hardware.h"
 //
