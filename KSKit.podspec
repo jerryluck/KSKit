@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KSKit'
-  s.version          = '3.3'
+  s.version          = '3.4'
   s.summary          = 'A library used on iOS.'
   s.description      = <<-DESC
                        It is a library used on iOS, which implement by Objective-C.
