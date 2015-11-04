@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KSKit'
-  s.version          = '3.4.3'
+  s.version          = '3.4.4'
   s.summary          = 'A library used on iOS.'
   s.description      = <<-DESC
                        It is a library used on iOS, which implement by Objective-C.
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Lib/**/*.{h,m}'
-  non_arc_files = 'Lib/DurexKit/NSArray+SafeKit.{h,m}','Lib/DurexKit/NSMutableArray+SafeKit.{h,m}'
+  non_arc_files = 'Lib/NSArray+SafeKit.{h,m}','Lib/NSMutableArray+SafeKit.{h,m}'
 
 
 end
