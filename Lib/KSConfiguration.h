@@ -38,6 +38,21 @@
 
 #define SYSTEM_VERSION          [[[UIDevice currentDevice] systemVersion] floatValue]
 
+//#define colorWithHex(rgb) \
+//    if ([rgb isKindOfClass:[NSNull class]]||rgb != nil)\
+//    {\
+//unsigned int r, g, b;\
+//CGFloat p = 10;\
+//[[NSScanner scannerWithString:[rgb substringWithRange:NSMakeRange(1, 2)]]scanHexInt:&r];\
+//[[NSScanner scannerWithString:[rgb substringWithRange:NSMakeRange(3, 2)]]scanHexInt:&g];\
+//[[NSScanner scannerWithString:[rgb substringWithRange:NSMakeRange(5, 2)]]scanHexInt:&b];\
+//if (rgb.length>7)\
+//{\
+//p = [[rgb substringWithRange:NSMakeRange(7, 1)] intValue]*.1;\
+//}\
+//[UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:p];\
+//    }\
+
 
 
 // 日志打印设置

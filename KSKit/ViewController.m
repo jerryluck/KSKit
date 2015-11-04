@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+//    self.view.backgroundColor = colorWithHex(@"#101010");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
