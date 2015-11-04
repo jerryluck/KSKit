@@ -26,7 +26,7 @@
 #import "KSRoundedView.h"
 #import "KSRoundAndBorderView.h"
 #import "KSApp.h"
-
+#import "iConsole.h"
 
 //
 //#import "NSArray+Block.h"
