@@ -19,18 +19,18 @@
     }
 
 }
-- (NSArray *)SKarrayByAddingObject:(id)anObject{
-    @autoreleasepool {
-        SK_TRY_BODY(return [self SKarrayByAddingObject:anObject];)
-        return nil;
-    }
-
-}
+//- (NSArray *)SKarrayByAddingObject:(id)anObject{
+//    @autoreleasepool {
+//        SK_TRY_BODY(return [self SKarrayByAddingObject:anObject];)
+//        return nil;
+//    }
+//
+//}
 + (void) load{
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         [self swizzleMethod:@selector(SKobjectAtIndex:) tarClass:@"__NSArrayI" tarSel:@selector(objectAtIndex:)];
-        [self swizzleMethod:@selector(SKarrayByAddingObject:) tarClass:@"__NSArrayI" tarSel:@selector(arrayByAddingObject:)];
+//        [self swizzleMethod:@selector(SKarrayByAddingObject:) tarClass:@"__NSArrayI" tarSel:@selector(arrayByAddingObject:)];
     });
 
 }
