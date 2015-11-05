@@ -58,29 +58,29 @@ SafeKitObjectPerformExceptionCatch getSafeKitObjectPerformExceptionCatch(){
     }
     return nil;
 }
--(id)SKperformSelector:(SEL)aSelector withObject:(id)object1 withObject:(id)object2{
-    if ([self respondsToSelector:aSelector]) {
-        if (getSafeKitObjectPerformExceptionCatch() == SafeKitObjectPerformExceptionCatchOn) {
-            SK_TRY_BODY(typedef void (*MethodType)(id, SEL, id, id);
-                        MethodType methodToCall = (MethodType)[self methodForSelector:aSelector];
-                        methodToCall(self, aSelector, object1, object2);)
-        }else{
-            typedef void (*MethodType)(id, SEL, id, id);
-            MethodType methodToCall = (MethodType)[self methodForSelector:aSelector];
-            methodToCall(self, aSelector, object1, object2);
-        }
-    }else{
-        [[SafeKitLog shareInstance]log:@"[%@ %@] unrecognized selector sent to instance ",[[self class]description],NSStringFromSelector(aSelector)];
-    }
-    return nil;
-}
+//-(id)SKperformSelector:(SEL)aSelector withObject:(id)object1 withObject:(id)object2{
+//    if ([self respondsToSelector:aSelector]) {
+//        if (getSafeKitObjectPerformExceptionCatch() == SafeKitObjectPerformExceptionCatchOn) {
+//            SK_TRY_BODY(typedef void (*MethodType)(id, SEL, id, id);
+//                        MethodType methodToCall = (MethodType)[self methodForSelector:aSelector];
+//                        methodToCall(self, aSelector, object1, object2);)
+//        }else{
+//            typedef void (*MethodType)(id, SEL, id, id);
+//            MethodType methodToCall = (MethodType)[self methodForSelector:aSelector];
+//            methodToCall(self, aSelector, object1, object2);
+//        }
+//    }else{
+//        [[SafeKitLog shareInstance]log:@"[%@ %@] unrecognized selector sent to instance ",[[self class]description],NSStringFromSelector(aSelector)];
+//    }
+//    return nil;
+//}
 
 + (void) load{
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         [self swizzleMethod:@selector(SKperformSelector:) tarSel:@selector(performSelector:)];
         [self swizzleMethod:@selector(SKperformSelector:withObject:) tarSel:@selector(performSelector:withObject:)];
-        [self swizzleMethod:@selector(SKperformSelector:withObject:withObject:) tarSel:@selector(performSelector:withObject:withObject:)];
+//        [self swizzleMethod:@selector(SKperformSelector:withObject:withObject:) tarSel:@selector(performSelector:withObject:withObject:)];
     });
     
 }

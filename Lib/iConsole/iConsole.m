@@ -35,7 +35,6 @@
 #import <string.h> 
 #import <TargetConditionals.h>
 
-
 #import <Availability.h>
 #if !__has_feature(objc_arc)
 #error This class requires automatic reference counting
@@ -53,7 +52,10 @@
 
 @interface iConsole() <UITextFieldDelegate, UIActionSheetDelegate>
 
-@property (nonatomic, strong) UITextView *consoleView;
+
+@property (nonatomic, strong) UILabel *contentLabel;
+
+@property (nonatomic, strong) UIScrollView *consoleView;
 @property (nonatomic, strong) UITextField *inputField;
 @property (nonatomic, strong) UIButton *actionButton;
 @property (nonatomic, strong) NSMutableArray *log;
@@ -162,9 +164,19 @@ static void exceptionHandler(NSException *exception)
         index += range.location+range.length;
 
     }
-	_consoleView.attributedText = str;
+	_contentLabel.attributedText = str;
+    
+    [_contentLabel sizeToFit];
+
+    
+//    CGSize size = [self getStringRect:str];
+//    CGRect bounds = _contentLabel.frame;
+//    bounds.size = size;
+//    _contentLabel.frame = bounds;
+    
+    _consoleView.contentSize = _contentLabel.frame.size;
 	
-	[_consoleView scrollRangeToVisible:NSMakeRange(_consoleView.text.length, 0)];
+	[_consoleView setContentOffset:CGPointMake(0, _consoleView.contentSize.height)];
 }
 
 - (void)resetLog
@@ -569,15 +581,25 @@ static void exceptionHandler(NSException *exception)
 	self.view.backgroundColor = _backgroundColor;
 	self.view.autoresizesSubviews = YES;
 
-	_consoleView = [[UITextView alloc] initWithFrame:self.view.bounds];
-	_consoleView.font = [UIFont fontWithName:@"Courier" size:12];
-	_consoleView.textColor = _textColor;
-	_consoleView.backgroundColor = [UIColor clearColor];
+    
+    
+	_consoleView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
+
     _consoleView.indicatorStyle = _indicatorStyle;
-	_consoleView.editable = NO;
 	_consoleView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
-	[self setConsoleText];
 	[self.view addSubview:_consoleView];
+    
+    _contentLabel = [[UILabel alloc] initWithFrame:self.view.bounds];
+    _contentLabel.font = [UIFont systemFontOfSize:12];
+    _contentLabel.textColor = _textColor;
+    _contentLabel.backgroundColor = [UIColor blackColor];
+    _contentLabel.numberOfLines = 0;
+    _contentLabel.lineBreakMode = NSLineBreakByWordWrapping;
+//    [_contentLabel sizeToFit];
+    [_consoleView addSubview:_contentLabel];
+    
+    [self setConsoleText];
+
 	
 	self.actionButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [_actionButton setTitle:@"⚙" forState:UIControlStateNormal];
@@ -623,7 +645,7 @@ static void exceptionHandler(NSException *exception)
 												   object:nil];
 	}
 
-	[self.consoleView scrollRangeToVisible:NSMakeRange(self.consoleView.text.length, 0)];
+//	[self.consoleView scrollRangeToVisible:NSMakeRange(self.contentLabel.length, 0)];
 }
 
 - (void)viewDidUnload
