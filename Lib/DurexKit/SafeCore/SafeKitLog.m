@@ -8,7 +8,7 @@
 
 #import "SafeKitLog.h"
 #import "NSException+SafeKit.h"
-
+#import "iConsole.h"
 
 SafeKitLog *SafeKitLogInstance;
 
@@ -90,6 +90,7 @@ SafeKitLog *SafeKitLogInstance;
 @implementation SafeKitConsolePrinter
 -(void)printv:(NSString *)format withArgs:(va_list)args{
     NSLogv(format, args);
+    [iConsole crash:format args:args];
 }
 @end
 

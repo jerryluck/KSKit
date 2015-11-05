@@ -719,6 +719,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Guangliang Gao (YPWTZ89X34)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Guangliang Gao (YPWTZ89X34)";
 				INFOPLIST_FILE = KSKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timy.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -733,6 +734,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Guangliang Gao (Z6DY77Z3KM)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Guangliang Gao (Z6DY77Z3KM)";
 				INFOPLIST_FILE = KSKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timy.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";

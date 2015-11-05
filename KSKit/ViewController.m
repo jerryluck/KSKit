@@ -18,6 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.view.backgroundColor = [UIColor redColor];
+    
+    NSMutableArray *addd = [NSMutableArray new];
+    [addd objectAtIndex:1];
+    
+    NSMutableDictionary *dic = [NSMutableDictionary new];
+    [dic setObject:nil forKey:@""];
+    
+    [iConsole info:@"Said '%@'", @"ddd"];
+    [iConsole error:@"Said '%@'", @"ddd"];
+    [iConsole warn:@"Said '%@'", @"ddd"];
+
 //    self.view.backgroundColor = colorWithHex(@"#101010");
     // Do any additional setup after loading the view, typically from a nib.
 }
