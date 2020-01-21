@@ -19,7 +19,7 @@
 #import "NSDateAdditions.h"
 #import "NSDate+Escort.h"
 #import "UIUtil+KS.h"
-#import "UIColor+Expanded.h"
+#import "UIColor+expanded.h"
 #import "UIColorAdditions.h"
 #import "Reachability.h"
 #import "UIButttonAddition.h"
