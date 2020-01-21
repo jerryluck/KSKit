@@ -41,18 +41,6 @@
 		C468CC601BD0B06E0092FFF0 /* UIButton+Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = C468CC581BD0B06E0092FFF0 /* UIButton+Indicator.m */; };
 		C468CC611BD0B06E0092FFF0 /* UIButton+Submitting.m in Sources */ = {isa = PBXBuildFile; fileRef = C468CC5A1BD0B06E0092FFF0 /* UIButton+Submitting.m */; };
 		C468CC621BD0B06E0092FFF0 /* UIButton+TouchAreaInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = C468CC5C1BD0B06E0092FFF0 /* UIButton+TouchAreaInsets.m */; };
-		C46F14331BEA1B840082A674 /* GTMStackTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F142F1BEA1B840082A674 /* GTMStackTrace.m */; };
-		C46F14341BEA1B840082A674 /* iConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F14321BEA1B840082A674 /* iConsole.m */; };
-		C4E97C9E1BE8B57200127F65 /* NSArray+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E97C891BE8B57200127F65 /* NSArray+SafeKit.m */; };
-		C4E97C9F1BE8B57200127F65 /* NSDictionary+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E97C8B1BE8B57200127F65 /* NSDictionary+SafeKit.m */; };
-		C4E97CA01BE8B57200127F65 /* NSMutableArray+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E97C8D1BE8B57200127F65 /* NSMutableArray+SafeKit.m */; };
-		C4E97CA11BE8B57200127F65 /* NSMutableDictionary+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E97C8F1BE8B57200127F65 /* NSMutableDictionary+SafeKit.m */; };
-		C4E97CA21BE8B57200127F65 /* NSMutableString+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E97C911BE8B57200127F65 /* NSMutableString+SafeKit.m */; };
-		C4E97CA31BE8B57200127F65 /* NSObject+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E97C931BE8B57200127F65 /* NSObject+SafeKit.m */; };
-		C4E97CA41BE8B57200127F65 /* NSString+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E97C951BE8B57200127F65 /* NSString+SafeKit.m */; };
-		C4E97CA51BE8B57200127F65 /* NSException+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E97C981BE8B57200127F65 /* NSException+SafeKit.m */; };
-		C4E97CA61BE8B57200127F65 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E97C9A1BE8B57200127F65 /* NSObject+Swizzle.m */; };
-		C4E97CA71BE8B57200127F65 /* SafeKitLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E97C9D1BE8B57200127F65 /* SafeKitLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,35 +129,8 @@
 		C468CC5A1BD0B06E0092FFF0 /* UIButton+Submitting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Submitting.m"; path = "Lib/UIButton+Submitting.m"; sourceTree = "<group>"; };
 		C468CC5B1BD0B06E0092FFF0 /* UIButton+TouchAreaInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+TouchAreaInsets.h"; path = "Lib/UIButton+TouchAreaInsets.h"; sourceTree = "<group>"; };
 		C468CC5C1BD0B06E0092FFF0 /* UIButton+TouchAreaInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TouchAreaInsets.m"; path = "Lib/UIButton+TouchAreaInsets.m"; sourceTree = "<group>"; };
-		C46F142E1BEA1B840082A674 /* GTMStackTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMStackTrace.h; sourceTree = "<group>"; };
-		C46F142F1BEA1B840082A674 /* GTMStackTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMStackTrace.m; sourceTree = "<group>"; };
-		C46F14311BEA1B840082A674 /* iConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iConsole.h; sourceTree = "<group>"; };
-		C46F14321BEA1B840082A674 /* iConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iConsole.m; sourceTree = "<group>"; };
 		C4C9DC871BCBCB6500E002FA /* KSConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSConfiguration.h; sourceTree = "<group>"; };
 		C4C9DC881BCBCB6500E002FA /* KSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSKit.h; sourceTree = "<group>"; };
-		C4E97C851BE8B57200127F65 /* DurexKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DurexKit.h; sourceTree = "<group>"; };
-		C4E97C871BE8B57200127F65 /* Foundation+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Foundation+SafeKit.h"; sourceTree = "<group>"; };
-		C4E97C881BE8B57200127F65 /* NSArray+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeKit.h"; sourceTree = "<group>"; };
-		C4E97C891BE8B57200127F65 /* NSArray+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SafeKit.m"; sourceTree = "<group>"; };
-		C4E97C8A1BE8B57200127F65 /* NSDictionary+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeKit.h"; sourceTree = "<group>"; };
-		C4E97C8B1BE8B57200127F65 /* NSDictionary+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafeKit.m"; sourceTree = "<group>"; };
-		C4E97C8C1BE8B57200127F65 /* NSMutableArray+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SafeKit.h"; sourceTree = "<group>"; };
-		C4E97C8D1BE8B57200127F65 /* NSMutableArray+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SafeKit.m"; sourceTree = "<group>"; };
-		C4E97C8E1BE8B57200127F65 /* NSMutableDictionary+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+SafeKit.h"; sourceTree = "<group>"; };
-		C4E97C8F1BE8B57200127F65 /* NSMutableDictionary+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+SafeKit.m"; sourceTree = "<group>"; };
-		C4E97C901BE8B57200127F65 /* NSMutableString+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+SafeKit.h"; sourceTree = "<group>"; };
-		C4E97C911BE8B57200127F65 /* NSMutableString+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+SafeKit.m"; sourceTree = "<group>"; };
-		C4E97C921BE8B57200127F65 /* NSObject+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeKit.h"; sourceTree = "<group>"; };
-		C4E97C931BE8B57200127F65 /* NSObject+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeKit.m"; sourceTree = "<group>"; };
-		C4E97C941BE8B57200127F65 /* NSString+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SafeKit.h"; sourceTree = "<group>"; };
-		C4E97C951BE8B57200127F65 /* NSString+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SafeKit.m"; sourceTree = "<group>"; };
-		C4E97C971BE8B57200127F65 /* NSException+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+SafeKit.h"; sourceTree = "<group>"; };
-		C4E97C981BE8B57200127F65 /* NSException+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+SafeKit.m"; sourceTree = "<group>"; };
-		C4E97C991BE8B57200127F65 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
-		C4E97C9A1BE8B57200127F65 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
-		C4E97C9B1BE8B57200127F65 /* SafeKitCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeKitCore.h; sourceTree = "<group>"; };
-		C4E97C9C1BE8B57200127F65 /* SafeKitLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeKitLog.h; sourceTree = "<group>"; };
-		C4E97C9D1BE8B57200127F65 /* SafeKitLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeKitLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,9 +224,6 @@
 		C43FCE311BCB684200DAB539 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				C46F142D1BEA1B840082A674 /* GTM */,
-				C46F14301BEA1B840082A674 /* iConsole */,
-				C4E97C841BE8B57200127F65 /* DurexKit */,
 				C468CC4A1BD0AFBC0092FFF0 /* UIControl */,
 				C468CC371BD0AE880092FFF0 /* UIButton */,
 				C4C9DC881BCBCB6500E002FA /* KSKit.h */,
@@ -339,70 +297,6 @@
 				C468CC4E1BD0AFC90092FFF0 /* UIControl+ActionBlocks.m */,
 			);
 			name = UIControl;
-			sourceTree = "<group>";
-		};
-		C46F142D1BEA1B840082A674 /* GTM */ = {
-			isa = PBXGroup;
-			children = (
-				C46F142E1BEA1B840082A674 /* GTMStackTrace.h */,
-				C46F142F1BEA1B840082A674 /* GTMStackTrace.m */,
-			);
-			path = GTM;
-			sourceTree = "<group>";
-		};
-		C46F14301BEA1B840082A674 /* iConsole */ = {
-			isa = PBXGroup;
-			children = (
-				C46F14311BEA1B840082A674 /* iConsole.h */,
-				C46F14321BEA1B840082A674 /* iConsole.m */,
-			);
-			path = iConsole;
-			sourceTree = "<group>";
-		};
-		C4E97C841BE8B57200127F65 /* DurexKit */ = {
-			isa = PBXGroup;
-			children = (
-				C4E97C851BE8B57200127F65 /* DurexKit.h */,
-				C4E97C861BE8B57200127F65 /* Foundation */,
-				C4E97C961BE8B57200127F65 /* SafeCore */,
-			);
-			path = DurexKit;
-			sourceTree = "<group>";
-		};
-		C4E97C861BE8B57200127F65 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				C4E97C871BE8B57200127F65 /* Foundation+SafeKit.h */,
-				C4E97C881BE8B57200127F65 /* NSArray+SafeKit.h */,
-				C4E97C891BE8B57200127F65 /* NSArray+SafeKit.m */,
-				C4E97C8A1BE8B57200127F65 /* NSDictionary+SafeKit.h */,
-				C4E97C8B1BE8B57200127F65 /* NSDictionary+SafeKit.m */,
-				C4E97C8C1BE8B57200127F65 /* NSMutableArray+SafeKit.h */,
-				C4E97C8D1BE8B57200127F65 /* NSMutableArray+SafeKit.m */,
-				C4E97C8E1BE8B57200127F65 /* NSMutableDictionary+SafeKit.h */,
-				C4E97C8F1BE8B57200127F65 /* NSMutableDictionary+SafeKit.m */,
-				C4E97C901BE8B57200127F65 /* NSMutableString+SafeKit.h */,
-				C4E97C911BE8B57200127F65 /* NSMutableString+SafeKit.m */,
-				C4E97C921BE8B57200127F65 /* NSObject+SafeKit.h */,
-				C4E97C931BE8B57200127F65 /* NSObject+SafeKit.m */,
-				C4E97C941BE8B57200127F65 /* NSString+SafeKit.h */,
-				C4E97C951BE8B57200127F65 /* NSString+SafeKit.m */,
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		C4E97C961BE8B57200127F65 /* SafeCore */ = {
-			isa = PBXGroup;
-			children = (
-				C4E97C971BE8B57200127F65 /* NSException+SafeKit.h */,
-				C4E97C981BE8B57200127F65 /* NSException+SafeKit.m */,
-				C4E97C991BE8B57200127F65 /* NSObject+Swizzle.h */,
-				C4E97C9A1BE8B57200127F65 /* NSObject+Swizzle.m */,
-				C4E97C9B1BE8B57200127F65 /* SafeKitCore.h */,
-				C4E97C9C1BE8B57200127F65 /* SafeKitLog.h */,
-				C4E97C9D1BE8B57200127F65 /* SafeKitLog.m */,
-			);
-			path = SafeCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -488,6 +382,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -538,41 +433,29 @@
 				C4631BD21BCCADE800B2ACF0 /* NSDate+Escort.m in Sources */,
 				C468CC5D1BD0B06E0092FFF0 /* UIButton+BackgroundColor.m in Sources */,
 				C468CC621BD0B06E0092FFF0 /* UIButton+TouchAreaInsets.m in Sources */,
-				C4E97CA41BE8B57200127F65 /* NSString+SafeKit.m in Sources */,
 				C468CC601BD0B06E0092FFF0 /* UIButton+Indicator.m in Sources */,
 				C43FCE061BCB681F00DAB539 /* ViewController.m in Sources */,
 				C4631BDD1BCCADE800B2ACF0 /* UIViewAdditions.m in Sources */,
-				C46F14331BEA1B840082A674 /* GTMStackTrace.m in Sources */,
 				C40F13DD1BCCBB3300493D4D /* KSApp.m in Sources */,
 				C468CC5F1BD0B06E0092FFF0 /* UIButton+CountDown.m in Sources */,
 				C40F13DE1BCCBB3300493D4D /* KSBootstrap.m in Sources */,
 				C4631BD31BCCADE800B2ACF0 /* NSDateAdditions.m in Sources */,
 				C4631BD91BCCADE800B2ACF0 /* UIColorAdditions.m in Sources */,
-				C46F14341BEA1B840082A674 /* iConsole.m in Sources */,
 				C4631BD61BCCADE800B2ACF0 /* Reachability.m in Sources */,
 				C468CC611BD0B06E0092FFF0 /* UIButton+Submitting.m in Sources */,
 				C4631BD01BCCADE800B2ACF0 /* KSRoundedView.m in Sources */,
 				C468CC501BD0AFC90092FFF0 /* UIControl+ActionBlocks.m in Sources */,
-				C4E97CA71BE8B57200127F65 /* SafeKitLog.m in Sources */,
-				C4E97CA01BE8B57200127F65 /* NSMutableArray+SafeKit.m in Sources */,
 				C468CC5E1BD0B06E0092FFF0 /* UIButton+Block.m in Sources */,
 				C468CC4F1BD0AFC90092FFF0 /* UIControl+Block.m in Sources */,
 				C43FCE031BCB681F00DAB539 /* AppDelegate.m in Sources */,
-				C4E97CA11BE8B57200127F65 /* NSMutableDictionary+SafeKit.m in Sources */,
-				C4E97CA21BE8B57200127F65 /* NSMutableString+SafeKit.m in Sources */,
-				C4E97CA61BE8B57200127F65 /* NSObject+Swizzle.m in Sources */,
 				C4631BD81BCCADE800B2ACF0 /* UIColor+expanded.m in Sources */,
 				C4631BDA1BCCADE800B2ACF0 /* UIDeviceAdditions.m in Sources */,
 				C43FCE001BCB681F00DAB539 /* main.m in Sources */,
 				C4631BDC1BCCADE800B2ACF0 /* UILabelAdditions.m in Sources */,
 				C4631BD41BCCADE800B2ACF0 /* NSObjectAdditons.m in Sources */,
-				C4E97CA51BE8B57200127F65 /* NSException+SafeKit.m in Sources */,
 				C4631BD71BCCADE800B2ACF0 /* UIButttonAddition.m in Sources */,
 				C4631BCF1BCCADE800B2ACF0 /* KSRoundAndBorderView.m in Sources */,
-				C4E97CA31BE8B57200127F65 /* NSObject+SafeKit.m in Sources */,
 				C40F13DF1BCCBB3300493D4D /* UIUtil+KS.m in Sources */,
-				C4E97C9F1BE8B57200127F65 /* NSDictionary+SafeKit.m in Sources */,
-				C4E97C9E1BE8B57200127F65 /* NSArray+SafeKit.m in Sources */,
 				C4631BDB1BCCADE800B2ACF0 /* UIImageAdditions.m in Sources */,
 				C4631BD11BCCADE800B2ACF0 /* NSData+Base64.m in Sources */,
 				C4631BD51BCCADE800B2ACF0 /* NSStringAdditions.m in Sources */,

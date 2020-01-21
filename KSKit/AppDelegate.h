@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "iConsole.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) iConsoleWindow *window;
+@property (strong, nonatomic) UIWindow *window;
 
 
 @end
