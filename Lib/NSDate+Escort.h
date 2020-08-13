@@ -2,12 +2,28 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSDate (Escort)
 
-+ (NSDate *)dateFormString:(NSString *)dateStr format:(NSString*)format;
+#pragma mark - Setting default calendar
 
+/**
+ Returns the calendarIdentifier of calendars that is used by this library for date calculation.
+ @see AZ_setDefaultCalendarIdentifier: for more details.
+ */
++ (NSString * _Nullable)AZ_defaultCalendarIdentifier;
+/**
+ Sets the calendarIdentifier of calendars that is used by this library for date calculation.
+ You can specify any calendarIdentifiers predefined by NSLocale. If you provide nil, the library uses
+ [NSCalendar currentCalendar]. Default value is nil.
+ 
+ You can't provide individual calendars for individual date objects. If you need to perform such
+ complicated date calculations, you should rather create calendars on your own.
+ */
++ (void)AZ_setDefaultCalendarIdentifier:(NSString * _Nullable)calendarIdentifier;
++ (NSDate*)dateFormString:(NSString*)dateStr format:(NSString*)format;
 - (NSString *)dateToStringWithFormat:(NSString*)format;
-
 
 #pragma mark - Relative dates from the current date
 + (NSDate *)dateTomorrow;
@@ -26,9 +42,7 @@
 
 + (NSDate *)dateWithMinutesBeforeNow:(NSInteger) dMinutes;
 
-
 #pragma mark - Comparing dates
-
 
 - (BOOL)isEqualToDateIgnoringTime:(NSDate *) otherDate;
 
@@ -60,11 +74,7 @@
 
 - (BOOL)isEarlierThanDate:(NSDate *) aDate;
 
-- (BOOL)isEarlierThanDateIgnoringTime:(NSDate *) aDate;
-
 - (BOOL)isLaterThanDate:(NSDate *) aDate;
-
-- (BOOL)isLaterThanDateIgnoringTime:(NSDate *) aDate;
 
 - (BOOL)isEarlierThanOrEqualDate:(NSDate *) aDate;
 
@@ -81,10 +91,6 @@
 - (BOOL)isTypicallyWeekend;
 
 #pragma mark - Adjusting dates
-
-- (NSDate*)dateByLocalTimeZone;
-
-
 - (NSDate *)dateByAddingYears:(NSInteger) dYears;
 
 - (NSDate *)dateBySubtractingYears:(NSInteger) dYears;
@@ -105,23 +111,30 @@
 
 - (NSDate *)dateBySubtractingMinutes:(NSInteger) dMinutes;
 
+- (NSDate *)dateByAddingSeconds:(NSInteger) dSeconds;
+
+- (NSDate *)dateBySubtractingSeconds:(NSInteger) dSeconds;
+
 - (NSDate *)dateAtStartOfDay;
 
-- (NSDate *)dateAtEndOfDay;
+- (NSDate *)dateAtStartOfNextDay;
 
 - (NSDate *)dateAtStartOfWeek;
 
-- (NSDate *)dateAtEndOfWeek;
+- (NSDate *)dateAtStartOfNextWeek;
 
 - (NSDate *)dateAtStartOfMonth;
 
-- (NSDate *)dateAtEndOfMonth;
+- (NSDate *)dateAtStartOfNextMonth;
 
 - (NSDate *)dateAtStartOfYear;
 
-- (NSDate *)dateAtEndOfYear;
+- (NSDate *)dateAtStartOfNextYear;
 
 #pragma mark - Retrieving intervals
+- (NSInteger)secondsAfterDate:(NSDate *) aDate;
+
+- (NSInteger)secondsBeforeDate:(NSDate *) aDate;
 
 - (NSInteger)minutesAfterDate:(NSDate *) aDate;
 
@@ -144,7 +157,15 @@
 */
 - (NSInteger)distanceInDaysToDate:(NSDate *) aDate;
 
-- (NSInteger)weeksInYear;
+#pragma mark amount
+
+- (NSInteger)hoursOfDay;
+
+- (NSInteger)daysOfMonth;
+
+- (NSInteger)daysOfYear;
+
+- (NSInteger)monthsOfYear;
 
 
 #pragma mark - Decomposing dates
@@ -167,3 +188,5 @@
 @property(readonly) NSInteger year;
 @property(readonly) NSInteger gregorianYear;
 @end
+
+NS_ASSUME_NONNULL_END
