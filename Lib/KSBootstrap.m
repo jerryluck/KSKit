@@ -60,6 +60,23 @@ UIColor* str2rgb(NSString* rgb){
     }
     return [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:p];
 }
+UIColor* colorWithAlpha(UIColor *color,CGFloat alpha){
+
+    CGFloat R, G, B;
+    CGColorRef colorRef = color.CGColor;
+    // Returns the number of color components (including alpha) associated with a Quartz color
+    NSInteger numComponents = CGColorGetNumberOfComponents(colorRef);
+      
+    if (numComponents == 4)
+    {
+        const CGFloat *components = CGColorGetComponents(colorRef);
+        R = components[0];
+        G = components[1];
+        B = components[2];
+    }
+   
+    return [UIColor colorWithRed:R green:G blue:B alpha:alpha];
+}
 + (NSOperationQueue *) operationQueue{
     if(_threadedQueue==nil){
         _threadedQueue = [[NSOperationQueue alloc] init];

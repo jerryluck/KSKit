@@ -22,7 +22,7 @@
 #define isiPhone                (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 
 
-#define isSimulator             (NSNotFound != [[[UIDevice currentDevice] model] rangeOfString:@"Simulator"].location)
+#define isSimulator1             (NSNotFound != [[[UIDevice currentDevice] model] rangeOfString:@"Simulator"].location)
 
 #define isIPhone5               ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
 

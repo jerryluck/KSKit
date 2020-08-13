@@ -36,6 +36,7 @@
 + (void)start;
 + (void) end;
 UIColor* str2rgb(NSString *rgb);
+UIColor* colorWithAlpha(UIColor *color,CGFloat alpha);
 + (void)notify:(NSString *)name object:(id)obj;
 + (void) notify:(NSString *)name data:(NSDictionary *)data;
 + (void) listen:(NSString *)name target:(id)target selector:(SEL)selector;

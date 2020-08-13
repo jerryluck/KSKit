@@ -10,6 +10,7 @@
 #import "UIViewAdditions.h"
 #import "KSConfiguration.h"
 
+static CGFloat labelLineSpacing = 0;
 @implementation UILabel (KS)
 
 + (instancetype)createLabelWithFrame:(CGRect)frame
@@ -31,21 +32,32 @@
 
 - (CGFloat)attributeTextHeight
 {
-    if (SYSTEM_VERSION>=7.0)
-    {
+
+        NSMutableParagraphStyle *paraStyle = [[NSMutableParagraphStyle alloc] init];
+        paraStyle.lineBreakMode = NSLineBreakByCharWrapping;
+        paraStyle.alignment = self.textAlignment;
+        paraStyle.lineSpacing = labelLineSpacing;
+        paraStyle.hyphenationFactor = 1.0;
+        paraStyle.firstLineHeadIndent = 0.0;
+        paraStyle.paragraphSpacingBefore = 0.0;
+        paraStyle.headIndent = 0;
+        paraStyle.tailIndent = 0;
+        NSDictionary *dic = @{NSFontAttributeName:self.font, NSParagraphStyleAttributeName:paraStyle, NSKernAttributeName:@0
+                              };
         
+        CGSize size = [self.text boundingRectWithSize:CGSizeMake(self.width, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:dic context:nil].size;
+
+    return size.height;
+//    return [self.attributedText boundingRectWithSize:CGSizeMake(self.width, MAXFLOAT) options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading context:nil].size.height;
         
-        return [self.attributedText boundingRectWithSize:CGSizeMake(self.width, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin context:nil].size.height;
-        
-    }
-    return 100;
+   
 }
 
 - (CGFloat)attributeTextWidth
 {
 
         
-    return [self.attributedText boundingRectWithSize:CGSizeMake(MAXFLOAT, self.height) options:NSStringDrawingUsesLineFragmentOrigin context:nil].size.width;
+    return [self.attributedText boundingRectWithSize:CGSizeMake(MAXFLOAT, self.height) options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading context:nil].size.width;
 
 }
 
@@ -90,6 +102,8 @@ NO_WARN_END
     //
     //        return ;
     //    }
+    
+    labelLineSpacing = space;
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:self.text];
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
     
