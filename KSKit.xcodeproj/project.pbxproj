@@ -40,7 +40,7 @@
 		C456841124E4E4A300CCFA74 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = C45683F724E4E4A300CCFA74 /* UIColor+expanded.m */; };
 		C456841224E4E4A300CCFA74 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C45683F924E4E4A300CCFA74 /* UIViewAdditions.m */; };
 		C456841324E4E4A300CCFA74 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C45683FA24E4E4A300CCFA74 /* NSData+Base64.m */; };
-		C456841624E4E5B800CCFA74 /* NSDate+Escort.m in Sources */ = {isa = PBXBuildFile; fileRef = C456841524E4E5B700CCFA74 /* NSDate+Escort.m */; };
+		C46FB29C25F714BA00F0EF64 /* NSDate+Escort.m in Sources */ = {isa = PBXBuildFile; fileRef = C46FB29B25F714B900F0EF64 /* NSDate+Escort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,8 +129,8 @@
 		C45683F824E4E4A300CCFA74 /* UIColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorAdditions.h; sourceTree = "<group>"; };
 		C45683F924E4E4A300CCFA74 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
 		C45683FA24E4E4A300CCFA74 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		C456841424E4E5B700CCFA74 /* NSDate+Escort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Escort.h"; sourceTree = "<group>"; };
-		C456841524E4E5B700CCFA74 /* NSDate+Escort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Escort.m"; sourceTree = "<group>"; };
+		C46FB29A25F714B900F0EF64 /* NSDate+Escort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Escort.h"; sourceTree = "<group>"; };
+		C46FB29B25F714B900F0EF64 /* NSDate+Escort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Escort.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,12 +227,12 @@
 				C45683DD24E4E4A300CCFA74 /* KSKit.h */,
 				C45683E724E4E4A300CCFA74 /* KSApp.h */,
 				C45683C824E4E4A300CCFA74 /* KSApp.m */,
-				C456841424E4E5B700CCFA74 /* NSDate+Escort.h */,
-				C456841524E4E5B700CCFA74 /* NSDate+Escort.m */,
 				C45683C924E4E4A300CCFA74 /* Reachability.m */,
 				C45683E824E4E4A300CCFA74 /* Reachability.h */,
 				C45683EC24E4E4A300CCFA74 /* UIUtil+KS.h */,
 				C45683D324E4E4A300CCFA74 /* UIUtil+KS.m */,
+				C46FB29A25F714B900F0EF64 /* NSDate+Escort.h */,
+				C46FB29B25F714B900F0EF64 /* NSDate+Escort.m */,
 				C45683E524E4E4A300CCFA74 /* KSBootstrap.h */,
 				C45683CB24E4E4A300CCFA74 /* KSBootstrap.m */,
 				C45683CC24E4E4A300CCFA74 /* UIControl+Block.m */,
@@ -414,7 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C456840C24E4E4A300CCFA74 /* UILabelAdditions.m in Sources */,
-				C456841624E4E5B800CCFA74 /* NSDate+Escort.m in Sources */,
+				C46FB29C25F714BA00F0EF64 /* NSDate+Escort.m in Sources */,
 				C43FCE061BCB681F00DAB539 /* ViewController.m in Sources */,
 				C456841224E4E4A300CCFA74 /* UIViewAdditions.m in Sources */,
 				C456840024E4E4A300CCFA74 /* UIControl+Block.m in Sources */,
