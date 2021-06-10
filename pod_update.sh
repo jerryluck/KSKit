@@ -28,7 +28,7 @@ set the new tag to $version
 
 echo -e "\033[32mpod trunk push KSKit.podspec --verbose\033[0m"
 
-pod trunk push KSKit.podspec --verbose
+pod trunk push KSKit.podspec 
 
 echo -e "\033[32msetup pod\033[0m"
 
